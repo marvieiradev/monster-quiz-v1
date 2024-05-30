@@ -1,3 +1,6 @@
+import { useContext } from "react";
+import { QuizContext } from "../context/quiz";
+
 import Logo from "../img/logo.png";
 import Button from "./Button";
 import Image from "./Image";
