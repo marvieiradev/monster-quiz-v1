@@ -7,3 +7,12 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
+.btn {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+}

@@ -1,6 +1,6 @@
 const Button = (props) => {
     return (
-        <button className="text-white bg-blue-500 m-4 p-2 text-md rounded-md">{props.text}</button>
+        <button className="btn text-white bg-blue-500 m-4 px-12 py-2 text-md hover:bg-red-700">{props.text}</button>
     );
 }
 
