@@ -7,6 +7,10 @@ import QuizGame from './components/QuizGame';
 function App() {
   const [quizState, dispatch] = useContext(QuizContext);
 
+  useEffect(() => {
+    dispatch({ type: "REORDER_QUESTIONS" })
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-center">
       {quizState.gameStage === "Start" && <Start />}
