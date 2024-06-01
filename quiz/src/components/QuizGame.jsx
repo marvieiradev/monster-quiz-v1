@@ -1,6 +1,9 @@
 import { useContext, useState } from "react";
 import { QuizContext } from "../context/quiz";
 
+import Image from "./Image";
+import Button from "./Button";
+
 
 const QuizGame = () => {
     const [quizState, dispatch] = useContext(QuizContext);

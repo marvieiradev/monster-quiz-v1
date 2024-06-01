@@ -9,6 +9,7 @@ const initialState = {
     currentQuestion: 0,
 };
 const quizReducer = (state, action) => {
+    console.log(action.type)
     switch (action.type) {
         case "CHANGE_STAGE":
             return {
