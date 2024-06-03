@@ -3,6 +3,7 @@ import { QuizContext } from './context/quiz';
 
 import Start from './components/Start';
 import QuizGame from './components/QuizGame';
+import GameOver from './components/GameOver';
 
 function App() {
   const [quizState, dispatch] = useContext(QuizContext);
@@ -15,6 +16,7 @@ function App() {
     <div className="flex flex-col items-center justify-center">
       {quizState.gameStage === "Start" && <Start />}
       {quizState.gameStage === "Playing" && <QuizGame />}
+      {quizState.gameStage === "End" && <GameOver />}
     </div >
 
   )
