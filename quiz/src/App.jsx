@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center h-full w-full">
       {quizState.gameStage === "Start" && <Start />}
       {quizState.gameStage === "Playing" && <QuizGame />}
       {quizState.gameStage === "End" && <GameOver />}

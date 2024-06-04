@@ -1,6 +1,6 @@
 const Image = (props) => {
     return (
-        <img src={props.src} alt="image" className="max-w-[100vh] w-[100%]" />
+        <img src={props.src} alt="image" height={props.size} width={props.size} className="max-w-[100vh] w-[100%]" />
     );
 }
 
