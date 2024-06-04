@@ -3,12 +3,13 @@ import { QuizContext } from "../context/quiz";
 
 import Button from "./Button";
 
-const Option = ({ option }) => {
+const Option = ({ option, selectOption, answer }) => {
     const [quizState, dispatch] = useContext(QuizContext);
     return (
-        <div className="flex flex-col items-center">
-            <Button text={option} />
-        </div>);
+        <>
+            <Button text={option} click={() => selectOption(option)} />
+        </>
+    )
 }
 
 export default Option;

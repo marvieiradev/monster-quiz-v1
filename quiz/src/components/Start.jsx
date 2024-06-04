@@ -7,7 +7,6 @@ import Image from "./Image";
 
 const Start = () => {
     const [quizState, dispatch] = useContext(QuizContext);
-    console.log(quizState)
     return (
         <div className="flex flex-col items-center justify-center max-w-[500px] first:w-[400px] gap-4">
             <h2 className="text-2xl font-bold">Monster Quiz</h2>
