@@ -1,6 +1,11 @@
 const Button = (props) => {
     return (
-        <div onClick={props.click} className="btn text-white bg-blue-500 m-4 px-12 py-2 text-md hover:bg-red-700 cursor-pointer">{props.text}</div>
+        <>
+            < div onClick={props.click} className="btn cursor-pointer justify-center">
+                <span className="text-white text-xl text-center">{props.text}</span>
+            </div>
+        </>
+
     );
 }
 

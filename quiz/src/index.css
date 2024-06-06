@@ -5,25 +5,48 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Markazi Text", serif;
+}
+
+body {
+  background: url("../src/img/ui/bg.jpg");
 }
 
 .btn {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  background-image: url("../src/img/ui/btn_pt.png");
+  background-color: #AA0000;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 20%;
+  padding: 8px 48px;
+  display: flex;
+  align-items: center;
+  border: 5px solid #fff;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  background-color: #8d0000;
 }
 
 .options>.btn {
-  clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+  background-color: #156AA0;
+  background-size: 8%;
 }
 
-.game {
-  background-image: url("../src/img/empty-small.webp");
-  width: 200px;
+.options>.btn:hover {
+  background-color: #CB5709;
+}
+
+.img-quiz {
+  background: url("../src/img/ui/frame_monster.png") no-repeat center center;
+  background-size: 95%;
+  padding: 14px;
+  margin: 20px;
+}
+
+span {
+  text-shadow: 2px 2px 4px #000000
 }
 
 .image_modal {

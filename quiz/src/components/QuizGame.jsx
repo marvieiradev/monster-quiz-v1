@@ -17,22 +17,23 @@ const QuizGame = () => {
     }
     return (
         <>
-            <div className="flex flex-col items-center w-full justify-center">
-                <p>Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
-                <div className="game w-[200px] flex items-center justify-center">
-                    <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" height="95%" width="95%" />
+            <div className="flex flex-col items-center w-[70%] justify-center h-[100vh]">
+                <div className=" content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center">
+                    <p>Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
+                    <div className="img-quiz w-[200px] flex items-center justify-center">
+                        <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" height="95%" width="95%" />
+                    </div>
+                    <p>Que Monstro é esse?</p>
+                    <div className="options w-[65%] flex flex-col gap-4 text-lg">
+                        {currentQuestion.options.map((option) => (
+                            <Option option={option}
+                                key={option}
+                                answer={currentQuestion.answer}
+                                selectOption={() => onSelectOption(option)}
+                            />
+                        ))}
+                    </div>
                 </div>
-                <p>Que Monstro é esse?</p>
-                <div className="options w-[55%] flex flex-col">
-                    {currentQuestion.options.map((option) => (
-                        <Option option={option}
-                            key={option}
-                            answer={currentQuestion.answer}
-                            selectOption={() => onSelectOption(option)}
-                        />
-                    ))}
-                </div>
-
             </div>
             {
                 quizState.answerSelected && (
