@@ -17,6 +17,15 @@
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
 }
 
+.options>.btn {
+  clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+}
+
+.game {
+  background-image: url("../src/img/empty-small.webp");
+  width: 200px;
+}
+
 .image_modal {
   z-index: 30;
   position: absolute;
