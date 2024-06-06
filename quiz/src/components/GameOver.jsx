@@ -9,7 +9,7 @@ const GameOver = () => {
         <h2>Game Over!</h2>
         <p>Pontuação: {quizState.score * 10}</p>
         <p>Respostas Corretas: {quizState.score}</p>
-        <Button click={() => dispatch({ type: "NEW_GAME" })} text="REINICIAR" />
+        <Button click={() => /*dispatch({ type: "NEW_GAME" })*/window.location.reload()} text="REINICIAR" />
     </div>);
 }
 
