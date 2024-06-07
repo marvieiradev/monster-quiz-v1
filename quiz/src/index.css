@@ -16,16 +16,18 @@ body {
   background: url("../src/img/ui/bg.jpg");
 }
 
-.line-1,
-.line-2 {
-  background: url("../src/img/ui/line.png")no-repeat center center;
+.v-line {
+  background: url("../src/img/ui/v-line.png")no-repeat center center;
   width: 20px;
   height: 100vh;
   background-size: cover;
 }
 
-.line-2 {
-  transform: rotate(180deg);
+.h-deco-line {
+  background: url("../src/img/ui/h-deco-line.png");
+  width: 100vh;
+  height: 20px;
+  background-size: contain;
 }
 
 .btn {

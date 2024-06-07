@@ -20,8 +20,8 @@ const QuizGame = () => {
             <div className="app flex flex-col items-center w-[70%] justify-center h-[100vh] relative">
 
                 <div className=" content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-3">
-                    <span className="line-1 absolute left-0 block"></span>
-                    <span className="line-2 absolute right-0 block"></span>
+                    <span className="v-line absolute left-0 block"></span>
+                    <span className="v-line absolute right-0 rotate-180 block"></span>
                     <p className="text-2xl">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
                     <div className="w-[200px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl">
                         <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />
