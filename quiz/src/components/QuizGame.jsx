@@ -17,13 +17,17 @@ const QuizGame = () => {
     }
     return (
         <>
-            <div className="flex flex-col items-center w-[70%] justify-center h-[100vh]">
-                <div className=" content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center">
-                    <p>Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
-                    <div className="img-quiz w-[200px] flex items-center justify-center">
-                        <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" height="95%" width="95%" />
+            <div className="app flex flex-col items-center w-[70%] justify-center h-[100vh] relative">
+
+                <div className=" content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-3">
+                    <span className="line-1 absolute left-0 block"></span>
+                    <span className="line-2 absolute right-0 block"></span>
+                    <p className="text-2xl">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
+                    <div className="w-[200px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl">
+                        <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />
+                        <img src={`src/img/ui/frame_monster.png`} className="absolute" />
                     </div>
-                    <p>Que Monstro é esse?</p>
+                    <p className="text-2xl">Que Monstro é esse?</p>
                     <div className="options w-[65%] flex flex-col gap-4 text-lg">
                         {currentQuestion.options.map((option) => (
                             <Option option={option}
@@ -39,9 +43,9 @@ const QuizGame = () => {
                 quizState.answerSelected && (
                     <Modal click={
                         () => dispatch({ type: "CHANGE_QUESTION" })}
-                        image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${baseURL}big/${currentQuestion.id}.webp` : "src/img/mh.webp"}
-                        mesage={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? "acertou!" : "errou!"}
-                        name={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${currentQuestion.options[currentQuestion.answer - 1]}` : ""} />
+                        image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${baseURL}big/${currentQuestion.id}.webp` : "src/img/error.webp"}
+                        mesage={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? "Acertou!" : "Errou!"}
+                        name={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${currentQuestion.options[currentQuestion.answer - 1]}` : " "} />
                 )
             }
         </>

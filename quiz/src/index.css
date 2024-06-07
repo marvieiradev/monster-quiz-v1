@@ -9,7 +9,23 @@
 }
 
 body {
+  background-color: white;
+}
+
+.app {
   background: url("../src/img/ui/bg.jpg");
+}
+
+.line-1,
+.line-2 {
+  background: url("../src/img/ui/line.png")no-repeat center center;
+  width: 20px;
+  height: 100vh;
+  background-size: cover;
+}
+
+.line-2 {
+  transform: rotate(180deg);
 }
 
 .btn {
@@ -36,13 +52,6 @@ body {
 
 .options>.btn:hover {
   background-color: #CB5709;
-}
-
-.img-quiz {
-  background: url("../src/img/ui/frame_monster.png") no-repeat center center;
-  background-size: 95%;
-  padding: 14px;
-  margin: 20px;
 }
 
 span {
