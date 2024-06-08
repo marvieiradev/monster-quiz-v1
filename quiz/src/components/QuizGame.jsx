@@ -18,7 +18,6 @@ const QuizGame = () => {
     return (
         <>
             <div className="app flex flex-col items-center w-[70%] justify-center h-[100vh] relative">
-
                 <div className=" content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-3">
                     <span className="v-line absolute left-0 block"></span>
                     <span className="v-line absolute right-0 rotate-180 block"></span>
