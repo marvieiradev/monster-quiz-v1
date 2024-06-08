@@ -24,10 +24,14 @@ body {
 }
 
 .h-deco-line {
-  background: url("../src/img/ui/h-deco-line.png");
+  background: url("../src/img/ui/h-deco-line.png") no-repeat center;
   width: 100vh;
-  height: 20px;
-  background-size: contain;
+  height: 30px;
+  background-size: cover;
+}
+
+.container {
+  background: url("../src/img/ui/bg_content.png");
 }
 
 .btn {
@@ -74,4 +78,8 @@ span {
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+.title {
+  font-family: "Aclonica", sans-serif;
 }

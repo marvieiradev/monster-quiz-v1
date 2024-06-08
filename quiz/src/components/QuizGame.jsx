@@ -44,7 +44,7 @@ const QuizGame = () => {
                     <Modal click={
                         () => dispatch({ type: "CHANGE_QUESTION" })}
                         image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${baseURL}big/${currentQuestion.id}.webp` : "src/img/error.webp"}
-                        mesage={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? "Acertou!" : "Errou!"}
+                        mesage={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? "Certa Resposta!" : "Errou!"}
                         name={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${currentQuestion.options[currentQuestion.answer - 1]}` : " "} />
                 )
             }
