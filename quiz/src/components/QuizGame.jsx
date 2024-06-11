@@ -3,6 +3,7 @@ import { QuizContext } from "../context/quiz";
 
 import Option from "./Option";
 import Modal from "./Modal";
+import Logo from "../img/logo_quiz.webp";
 
 const QuizGame = () => {
     const [quizState, dispatch] = useContext(QuizContext);
@@ -21,6 +22,7 @@ const QuizGame = () => {
                 <div className="content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-3">
                     <span className="v-line absolute left-0 block"></span>
                     <span className="v-line absolute right-0 rotate-180 block"></span>
+                    <img src={Logo} alt="logo" width="80%" />
                     <p className="text-2xl">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
                     <div className="w-[200px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl">
                         <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />

@@ -18,6 +18,7 @@ body {
 
 .v-line {
   background: url("../src/img/ui/v-line.png")no-repeat center center;
+
   width: 20px;
   height: 100vh;
   background-size: cover;
@@ -25,6 +26,7 @@ body {
 
 .h-line {
   background: url("../src/img/ui/h-line.png") no-repeat center center;
+  background-color: #381C16;
   width: 100%;
   height: 65px;
   background-size: cover;
