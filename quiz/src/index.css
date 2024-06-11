@@ -23,6 +23,13 @@ body {
   background-size: cover;
 }
 
+.h-line {
+  background: url("../src/img/ui/h-line.png") no-repeat center center;
+  width: 100%;
+  height: 65px;
+  background-size: cover;
+}
+
 .h-deco-line {
   background: url("../src/img/ui/h-deco-line.png") no-repeat center;
   width: 100vh;
