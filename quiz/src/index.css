@@ -87,6 +87,14 @@ span {
   left: 0;
 }
 
+.container img {
+  src: url("/quiz/src/img/empty-big.webp");
+}
+
+.content-quiz img {
+  src: url("/quiz/src/img/empty-small.webp");
+}
+
 .title {
   font-family: "Aclonica", sans-serif;
 }
