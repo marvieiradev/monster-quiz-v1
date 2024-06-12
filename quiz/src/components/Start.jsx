@@ -13,7 +13,7 @@ const Start = () => {
             <div className="w-[400px] flex justify-center">
                 <img src={Logo} alt="logo" width="100%" />
             </div>
-            <h2 className="text-2xl font-bold mx-10 text-center">Teste seus conhecimentos no Monster Hunter! Você conhece todos os monstros da franquia? Responda o nome do monstro de acordo com o sua imagem</h2>
+            <h2 className="text-2xl leading-8 font-bold mx-14 text-center">Teste seus conhecimentos no Monster Hunter! Você conhece todos os monstros da franquia? Responda o nome do monstro de acordo com o sua imagem</h2>
             <Button click={() => dispatch({ type: "CHANGE_STAGE" })} text="INICIAR" />
             <p className="font-bold">[Atenção: Esse app foi feito de fã para fã. Não é um produto oficial da franquia]</p>
         </div>
