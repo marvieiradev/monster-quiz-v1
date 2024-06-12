@@ -8,15 +8,39 @@ const initialState = {
     questions,
     currentQuestion: 0,
     score: 0,
+    corrects: 0,
     answerSelected: false,
     maxQuestions: 5,
 };
+
+
+
+let tempo = 20;
+let pontosTempo = 0;
+let timer;
+
+function startTimer() {
+    timer = setInterval(function () {
+        tempo--;
+        if (tempo < 0) {
+            tempo = 0;
+            clearInterval(timer)
+        }
+        console.log(tempo)
+    }, 1000);
+
+    tempo = 20;
+}
+
 const quizReducer = (state, action) => {
     switch (action.type) {
         case "CHANGE_STAGE":
+            clearInterval(timer)
+            startTimer()
             return {
                 ...state,
                 gameStage: STAGES[1],
+
             };
 
         case "REORDER_QUESTIONS":
@@ -29,10 +53,13 @@ const quizReducer = (state, action) => {
             };
 
         case "CHANGE_QUESTION":
+            clearInterval(timer)
+            startTimer()
             const nextQuestion = state.currentQuestion + 1;
             let endGame = false
             if (nextQuestion >= initialState.maxQuestions) {
                 endGame = true;
+                clearInterval(timer)
             }
             return {
                 ...state,
@@ -51,9 +78,12 @@ const quizReducer = (state, action) => {
 
             if (answer === option) correctAnswer = 1;
 
+            answer === option ? correctAnswer = 1 : timer = 0;
+
             return {
                 ...state,
-                score: state.score + correctAnswer,
+                corrects: state.corrects + correctAnswer,
+                score: state.score + 100 + timer,
                 answerSelected: option,
             }
 
