@@ -5,7 +5,7 @@ import { List } from "../functions";
 
 const GameOver = () => {
     const [quizState, dispatch] = useContext(QuizContext);
-    const stars = List(Math.floor(quizState.score / 500));
+    const stars = List(Math.floor(quizState.score / 100));
     return (
         <div className="app flex flex-col items-center w-[70%] justify-center h-[100vh] relative gap-6">
             <span className="v-line absolute left-0 block"></span>

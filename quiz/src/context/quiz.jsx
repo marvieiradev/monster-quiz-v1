@@ -13,23 +13,18 @@ const initialState = {
     maxQuestions: 5,
 };
 
-
-
 let tempo = 20;
-let pontosTempo = 0;
 let timer;
 
 function startTimer() {
+    tempo = 20;
     timer = setInterval(function () {
         tempo--;
         if (tempo < 0) {
             tempo = 0;
             clearInterval(timer)
         }
-        console.log(tempo)
     }, 1000);
-
-    tempo = 20;
 }
 
 const quizReducer = (state, action) => {
@@ -59,7 +54,7 @@ const quizReducer = (state, action) => {
             let endGame = false
             if (nextQuestion >= initialState.maxQuestions) {
                 endGame = true;
-                clearInterval(timer)
+                clearInterval(timer);
             }
             return {
                 ...state,
@@ -71,19 +66,24 @@ const quizReducer = (state, action) => {
             return initialState;
 
         case "CHECK_ANSWER":
+            clearInterval(timer)
             if (state.answerSelected) return state;
             const answer = action.payload.answer
             const option = action.payload.option
             let correctAnswer = 0
+            let score = 0
 
-            if (answer === option) correctAnswer = 1;
-
-            answer === option ? correctAnswer = 1 : timer = 0;
+            if (answer === option) {
+                correctAnswer = 1;
+                score = 100;
+            } else {
+                tempo = 0;
+            }
 
             return {
                 ...state,
                 corrects: state.corrects + correctAnswer,
-                score: state.score + 100 + timer,
+                score: state.score + score + tempo,
                 answerSelected: option,
             }
 
