@@ -7,7 +7,7 @@ import Button from "./Button";
 const Start = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     return (
-        <div className="app flex flex-col items-center w-[70%] justify-center h-[100vh] relative gap-8">
+        <div className="app start flex flex-col items-center w-[70%] justify-center h-[100vh] relative gap-8">
             <span className="h-line absolute bottom-0 block"></span>
             <span className="h-line absolute top-0 rotate-180 block"></span>
             <div className="w-[400px] flex justify-center">
