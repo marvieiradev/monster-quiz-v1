@@ -10,14 +10,14 @@ const initialState = {
     score: 0,
     corrects: 0,
     answerSelected: false,
-    maxQuestions: 5,
+    maxQuestions: 10,
 };
 
-let tempo = 20;
+let tempo = 21;
 let timer;
 
 function startTimer() {
-    tempo = 20;
+    tempo = 21;
     timer = setInterval(function () {
         tempo--;
         if (tempo < 0) {
