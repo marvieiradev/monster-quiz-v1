@@ -29,6 +29,9 @@ const QuizGame = () => {
                         <img src={`src/img/ui/frame_monster.png`} className="absolute" />
                     </div>
                     <p className="text-2xl">Que Monstro é esse?</p>
+
+                    <p className="">{currentQuestion.options[currentQuestion.answer - 1]}</p>
+
                     <div className="options w-[65%] flex flex-col gap-4 text-lg">
                         {currentQuestion.options.map((option) => (
                             <Option option={option}
