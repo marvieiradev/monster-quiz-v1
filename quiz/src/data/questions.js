@@ -114,1215 +114,1216 @@ const data = [
         options: ["Bloodbath Diablos", "Gilded Diablos", "Apex Diablos", "Black Diablos"],
         answer: 4,
     },
-    /*{
+
+    {
         id: 21,
-        options: [],
+        options: ["Bloodbath Diablos", "Monoblos", "Tetsucabra", "Black Diablos"],
         answer: 1,
     },
 
     {
         id: 22,
-        options: [],
+        options: ["Monoblos", "Apex Diablos", "Black Diablos", , "Magnamalo"],
         answer: 2,
     },
 
     {
         id: 23,
-        options: [],
+        options: ["Kulu-Ya-Ku", "Qurupeco", "Yian Kut-Ku", "Yian Garuga"],
         answer: 3,
     },
 
     {
         id: 24,
-        options: [],
+        options: ["Qurupeco", "Tzitzi-Ya-Ku", "Scarred Yian Garuga", "Blue Yian Kut-Ku"],
         answer: 4,
     },
     {
         id: 25,
-        options: [],
+        options: ["Gypceros", "Yian Garuga", "Gajau", "Iodrome"],
         answer: 1,
     },
 
     {
         id: 26,
-        options: [],
+        options: ["Kulu-Ya-Ku", "Purple Gypceros", "Scarred Yian Garuga", "Yian Kut-Ku"],
         answer: 2,
     },
 
     {
         id: 27,
-        options: [],
+        options: ["Jyuratodus", "Lavasioth", "Plesioth", "Beotodos"],
         answer: 3,
     },
 
     {
         id: 28,
-        options: [],
+        options: ["Lavasioth", "Jyuratodus", "Great Jagras", "Green Plesioth"],
         answer: 4,
     },
     {
         id: 29,
-        options: [],
+        options: ["Kirin", "Kelbi", "Oroshi Kirin", "Namielle"],
         answer: 1,
     },
 
     {
         id: 30,
-        options: [],
+        options: ["Kirin", "Oroshi Kirin", "Velkhana", "Black Kirin"],
         answer: 2,
     },
 
     {
         id: 31,
-        options: [],
+        options: ["Kushala Daora", "Basarios", "Lao-Shan Lung", "Fatalis"],
         answer: 3,
     },
 
     {
         id: 32,
-        options: [],
+        options: ["Dalamadur", "Dire Miralis", "Rusted Kushala Daora", "Ashen Lao-Shan Lung"],
         answer: 4,
     },
     {
         id: 33,
-        options: [],
+        options: ["Fatalis", "Crimson Fatalis", "Ashen Lao-Shan Lung", "Alatreon"],
         answer: 1,
     },
 
     {
         id: 34,
-        options: [],
+        options: ["Lao-Shan Lung", "Crimson Fatalis", "Dire Miralis", "Garuba Daora"],
         answer: 2,
     },
 
     {
         id: 35,
-        options: [],
+        options: ["Dire Miralis", "Oltura", "Old Fatalis", "Crimson Fatalis"],
         answer: 3,
     },
 
     {
         id: 36,
-        options: [],
+        options: ["Jaggi", "Wroggi", "Jaggia", "Velocidrome"],
         answer: 4,
     },
     {
         id: 37,
-        options: [],
+        options: ["Gendrome", "Anjanath", "Jagras", "Iodrome"],
         answer: 1,
     },
 
     {
         id: 38,
-        options: [],
+        options: ["Shamos", "Iodrome", "Jagras", "Girros"],
         answer: 2,
     },
 
     {
         id: 39,
-        options: [],
+        options: ["Raphinos", "Noios", "Cephadrome", "Remobra"],
         answer: 3,
     },
 
     {
         id: 40,
-        options: [],
+        options: ["Yian Kut-Ku", "Kulu-Ya-Ku", "Qurupeco", "Yian Garuga"],
         answer: 4,
     },
     {
         id: 41,
-        options: [],
+        options: ["Deadeye Yian Garuga", "Nightshade Paolumu", "Black Yian Kut-Ku", "Qurupeco"],
         answer: 1,
     },
 
     {
         id: 42,
-        options: [],
+        options: ["Yian Kut-Ku", "Scarred Yian Garuga", "Yian Garuga", "Blue Yian Kut-Ku"],
         answer: 2,
     },
 
     {
         id: 43,
-        options: [],
+        options: ["Hermitaur", "Vespoid", "Daimyo Hermitaur", "Anteka"],
         answer: 3,
     },
 
     {
         id: 44,
-        options: [],
+        options: ["Nerscylla", "Hornetaur", "Great Thunderbug", "Plum Daimyo Hermitaur"],
         answer: 4,
     },
     {
         id: 45,
-        options: [],
+        options: ["Stonefist Hermitaur", "Nerscylla", "Rachnoid", "Ceanataur"],
         answer: 1,
     },
 
     {
         id: 46,
-        options: [],
+        options: ["Hornetaur", "Shogun Ceanataur", "Vespoid", "Monoblos"],
         answer: 2,
     },
 
     {
         id: 47,
-        options: [],
+        options: ["teste", "teste", "Terra Shogun Ceanataur", "teste"],
         answer: 3,
     },
 
     {
         id: 48,
-        options: [],
+        options: ["Rachnoid", "Hermitaur", "Nerscylla", "Rustrazor Ceanataur"],
         answer: 4,
     },
     {
         id: 49,
-        options: [],
+        options: ["Congalala", "Blangonga", "Maccao", "Rajang"],
         answer: 1,
     },
 
     {
         id: 50,
-        options: [],
+        options: ["Rajang", "Emerald Congalala", "Blango", "Blangonga"],
         answer: 2,
     },
-
-    {
-        id: 51,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 52,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 53,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 54,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 55,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 56,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 57,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 58,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 59,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 60,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 61,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 62,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 63,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 64,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 65,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 66,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 67,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 68,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 69,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 70,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 71,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 72,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 73,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 74,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 75,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 76,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 77,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 78,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 79,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 80,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 81,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 82,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 83,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 84,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 85,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 86,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 87,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 88,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 89,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 90,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 91,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 92,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 93,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 94,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 95,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 96,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 97,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 98,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 99,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 100,
-        options: [],
-        answer: 4,
-    },
-
-    {
-        id: 101,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 102,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 103,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 104,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 105,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 106,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 107,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 108,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 109,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 110,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 111,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 112,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 113,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 114,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 115,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 116,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 117,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 118,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 119,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 120,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 121,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 122,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 123,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 124,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 125,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 126,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 127,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 128,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 129,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 130,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 131,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 132,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 133,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 134,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 135,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 136,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 137,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 138,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 139,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 140,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 141,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 142,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 143,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 144,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 145,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 146,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 147,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 148,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 149,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 150,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 151,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 152,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 153,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 154,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 155,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 156,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 157,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 158,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 159,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 160,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 161,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 162,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 163,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 164,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 165,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 166,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 167,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 168,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 169,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 170,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 171,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 172,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 173,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 174,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 175,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 176,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 177,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 178,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 179,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 180,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 181,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 182,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 183,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 184,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 185,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 186,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 187,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 188,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 189,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 190,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 191,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 192,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 193,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 194,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 195,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 196,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 197,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 198,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 199,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 200,
-        options: [],
-        answer: 4,
-    },
-
-    {
-        id: 201,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 202,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 203,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 204,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 205,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 206,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 207,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 208,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 209,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 210,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 211,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 212,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 213,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 214,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 215,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 216,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 217,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 218,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 219,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 220,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 221,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 222,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 223,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 224,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 225,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 226,
-        options: [],
-        answer: 2,
-    },
-
-    {
-        id: 227,
-        options: [],
-        answer: 3,
-    },
-
-    {
-        id: 228,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 229,
-        options: [],
-        answer: 1,
-    },
-
-    {
-        id: 230,
-        options: [],
-        answer: 2,
-    },*/
+    /*
+        {
+            id: 51,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 52,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 53,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 54,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 55,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 56,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 57,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 58,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 59,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 60,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 61,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 62,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 63,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 64,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 65,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 66,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 67,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 68,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 69,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 70,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 71,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 72,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 73,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 74,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 75,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 76,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 77,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 78,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 79,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 80,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 81,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 82,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 83,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 84,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 85,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 86,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 87,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 88,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 89,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 90,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 91,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 92,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 93,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 94,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 95,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 96,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 97,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 98,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 99,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 100,
+            options: [],
+            answer: 4,
+        },
+    
+        {
+            id: 101,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 102,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 103,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 104,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 105,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 106,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 107,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 108,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 109,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 110,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 111,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 112,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 113,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 114,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 115,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 116,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 117,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 118,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 119,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 120,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 121,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 122,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 123,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 124,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 125,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 126,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 127,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 128,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 129,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 130,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 131,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 132,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 133,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 134,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 135,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 136,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 137,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 138,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 139,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 140,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 141,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 142,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 143,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 144,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 145,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 146,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 147,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 148,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 149,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 150,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 151,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 152,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 153,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 154,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 155,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 156,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 157,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 158,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 159,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 160,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 161,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 162,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 163,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 164,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 165,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 166,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 167,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 168,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 169,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 170,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 171,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 172,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 173,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 174,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 175,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 176,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 177,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 178,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 179,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 180,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 181,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 182,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 183,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 184,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 185,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 186,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 187,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 188,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 189,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 190,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 191,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 192,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 193,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 194,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 195,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 196,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 197,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 198,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 199,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 200,
+            options: [],
+            answer: 4,
+        },
+    
+        {
+            id: 201,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 202,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 203,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 204,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 205,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 206,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 207,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 208,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 209,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 210,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 211,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 212,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 213,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 214,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 215,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 216,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 217,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 218,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 219,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 220,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 221,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 222,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 223,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 224,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 225,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 226,
+            options: [],
+            answer: 2,
+        },
+    
+        {
+            id: 227,
+            options: [],
+            answer: 3,
+        },
+    
+        {
+            id: 228,
+            options: [],
+            answer: 4,
+        },
+        {
+            id: 229,
+            options: [],
+            answer: 1,
+        },
+    
+        {
+            id: 230,
+            options: [],
+            answer: 2,
+        },*/
 ];
 
 export default data;
