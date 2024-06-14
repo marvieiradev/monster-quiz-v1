@@ -2,7 +2,7 @@ const Button = (props) => {
     return (
         <>
             < div onClick={props.click} className="btn cursor-pointer justify-center">
-                <span className="text-white text-xl text-center">{props.text}</span>
+                <span className="text-white text-md text-center md:text-xl">{props.text}</span>
             </div>
         </>
 

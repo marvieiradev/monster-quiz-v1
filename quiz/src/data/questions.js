@@ -267,7 +267,7 @@ const data = [
 
     {
         id: 47,
-        options: ["teste", "teste", "Terra Shogun Ceanataur", "teste"],
+        options: ["teste1", "teste2", "Terra Shogun Ceanataur", "teste3"],
         answer: 3,
     },
 
