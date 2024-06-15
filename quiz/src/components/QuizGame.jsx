@@ -26,7 +26,7 @@ const QuizGame = () => {
                     <p className="text-xl lg:text-2xl">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
                     <div className="w-[150px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl md:w-[200px]">
                         <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />
-                        <img src={`src/img/ui/frame_monster.png`} className="absolute" />
+                        <img src={`../img/ui/frame_monster.png`} className="absolute" />
                     </div>
                     <p className="text-xl lg:text-2xl">Que Monstro é esse?</p>
 
