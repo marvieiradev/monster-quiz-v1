@@ -290,289 +290,289 @@ const data = [
     /*
         {
             id: 51,
-            options: [],
+            options: ["Blangonga", "Rajang", "Congalala", "Conga"],
             answer: 3,
         },
     
         {
             id: 52,
-            options: [],
+            options: ["Copper Blangonga","1","2","3"],
             answer: 4,
         },
         {
             id: 53,
-            options: [],
+            options: ["Conga", "Rajang", "Congalala", "Blangonga"],
             answer: 1,
         },
     
         {
             id: 54,
-            options: [],
+            options: ["Blangonga", "Rajang", "Furious Rajang", "Enma Rajang"],
             answer: 2,
         },
     
         {
             id: 55,
-            options: [],
+            options: ["Kushala Daora", "Lao-Shan Lung", "Rusted Kushala Daora", "Garuba Daora"],
             answer: 3,
         },
     
         {
             id: 56,
-            options: [],
+            options: ["Lao-Shan Lung", "Kushala Daora", "Garuba Daora", "Rusted Kushala Daora"],
             answer: 4,
         },
         {
             id: 57,
-            options: [],
+            options: ["Risen Kushala Daora","1","2","3"],
             answer: 1,
         },
     
         {
             id: 58,
-            options: [],
+            options: ["Gore Magala", "Khezu", "Chameleos", "Cephadrome"],
             answer: 2,
         },
     
         {
             id: 59,
-            options: [],
+            options: ["1","2""Risen Chameleos","4"],
             answer: 3,
         },
     
         {
             id: 60,
-            options: [],
+            options: ["Oltura", "Teostra", "Lunastra", "Versa Pietru"],
             answer: 4,
         },
         {
             id: 61,
-            options: [],
+            options: ["Oltura", "Versa Pietru", "Teostra", "Lunastra"],
             answer: 1,
         },
     
         {
             id: 62,
-            options: [],
+            options: ["1","Risen Teostra","3","4"],
             answer: 2,
         },
     
         {
             id: 63,
-            options: [],
+            options: ["Dalamadur", "Amatsu", "Shen Gaoren", "Kushala Daora"],
             answer: 3,
         },
     
         {
             id: 64,
-            options: [],
+            options: [Oltura", "Yama Tsukami", "Shagaru Magala", "Dire Miralis"],
             answer: 4,
         },
         {
             id: 65,
-            options: [],
+            options: ["Bulldrome", "Bullfango", "Musgoin", "Banbaro"],
             answer: 1,
         },
     
         {
             id: 66,
-            options: [],
+            options: ["King Shakalaka"],
             answer: 2,
         },
     
         {
             id: 67,
-            options: [],
+            options: ["Tigrex", "Nargacuga", "Tigerstripe Zamtrios", "Zamtrios"],
             answer: 3,
         },
     
         {
             id: 68,
-            options: [],
+            options: ["Flame Tigrex", "Brute Tigrex", "Tigerstripe Zamtrios", "Grimclaw Tigrex"],
             answer: 4,
         },
         {
             id: 69,
-            options: [],
+            options: ["Sand Barioth", "Steel Uragaan", "Molten Tigrex", "Tigerstripe Zamtrios"],
             answer: 1,
         },
     
         {
             id: 70,
-            options: [],
+            options: ["Lucent Nargacuga", "Grimclaw Tigrex", "Brute Tigrex", "Molten Tigrex"],
             answer: 2,
         },
     
         {
             id: 71,
-            options: [],
+            options: ["Monoblos", "Apceros", "Akantor", "Basarios"],
             answer: 3,
         },
     
         {
             id: 72,
-            options: [],
+            options: ["Giadrome"],
             answer: 4,
         },
         {
             id: 73,
-            options: [],
+            options: ["Doom Estrellian", "Destruction Rathalos", "Hypnocatrice", "Estrellian"],
             answer: 1,
         },
     
         {
             id: 74,
-            options: [],
+            options: ["Plesioth", "Lavasioth", "Green Plesioth", "Jyuratodus"],
             answer: 2,
         },
     
         {
             id: 75,
-            options: [],
+            options: ["Nargaruga", "Yian Garuga", "Nargacuga", "Yian Naruga"],
             answer: 3,
         },
     
         {
             id: 76,
-            options: [],
+            options: ["Green Nargacuga", "Lucent Nargacuga", "Nargaruga", "Sand Barioth"],
             answer: 4,
         },
         {
             id: 77,
-            options: [],
+            options: ["Green Nargacuga", "Lucent Nargacuga", "Nargacuga", "Fiercewater Nargacuga"],
             answer: 1,
         },
     
         {
             id: 78,
-            options: [],
+            options: ["Grimclaw Tigrex", "Green Nargacuga", "Silverwind Nargacuga", "Lucent Nargacuga"],
             answer: 2,
         },
     
         {
             id: 79,
-            options: [],
+            options: ["Ukanlos"],
             answer: 3,
         },
     
         {
             id: 80,
-            options: [],
+            options: ["Vespoid Queen"],
             answer: 4,
         },
         {
             id: 81,
-            options: [],
+            options: ["Yian Garuga", "Yian Kut-Ku", "Qurupeco", "Gargwa"],
             answer: 1,
         },
     
         {
             id: 82,
-            options: [],
+            options: ["Plesioth", "Yian Garuga", "Yian Kut-Ku", "Crimson Qurupeco"],
             answer: 2,
         },
     
         {
             id: 83,
-            options: [],
+            options: ["Chameleos", "Khezu", "Gigginox", "Cephalos"],
             answer: 3,
         },
     
         {
             id: 84,
-            options: [],
+            options: ["Noios", "Chameleos", "Khezu", "Baleful Gigginox"],
             answer: 4,
         },
         {
             id: 85,
-            options: [],
+            options: ["Barioth", "Sand Barioth", "Frozen Barioth", "Shrieking Legiana"],
             answer: 1,
         },
     
         {
             id: 86,
-            options: [],
+            options: ["Sand Barioth", "Frostfang Barioth", "Sandstone Basarios", "Frozen Barioth"],
             answer: 2,
         },
     
         {
             id: 87,
-            options: [],
+            options: ["Frozen Barioth", "Frostfang Barioth", "Sand Barioth", "Barioth"],
             answer: 3,
         },
     
         {
             id: 88,
-            options: [],
+            options: ["Savage Deviljho", "Deviljho", "Aberrant Deviljho", "Demonic Seregios"],
             answer: 4,
         },
         {
             id: 89,
-            options: [],
+            options: ["Ebony Odogaron", "Savage Deviljho", "Raging Brachydios", "Aberrant Deviljho"],
             answer: 1,
         },
     
         {
             id: 90,
-            options: [],
+            options: ["Diablos", "Jyuratodus", "Basarios", "Barroth"],
             answer: 2,
         },
     
         {
             id: 91,
-            options: [],
+            options: ["Beotodos", "Barioth", "Oroshi Kirin", "Jade Barroth"],
             answer: 3,
         },
     
         {
             id: 92,
-            options: [],
+            options: ["Uragaan", "Dodogama", "Duramboros", "Radobaan"],
             answer: 4,
         },
         {
             id: 93,
-            options: [],
+            options: ["Radobaan", "Basarios", "Steel Uragaan", "Lavasioth"],
             answer: 1,
         },
     
         {
             id: 94,
-            options: [],
+            options: ["Uragaan", "Radobaan", "Crystalbeard Uragaan", "Seething Bazelgeuse"],
             answer: 2,
         },
     
         {
             id: 95,
-            options: [],
+            options: ["Lagiacrus", "Lavasioth", "Beotodos", "Jyuratodus"],
             answer: 3,
         },
     
         {
             id: 96,
-            options: [],
+            options: ["Plesioth", "Ivory Lagiacrus", "Lavasioth", "Beotodos"],
             answer: 4,
         },
         {
             id: 97,
-            options: [],
+            options: ["Gajau", "Plesioth", "Jyuratodus", "Abyssal Lagiacrus"],
             answer: 1,
         },
     
         {
             id: 98,
-            options: [],
+            options: ["Royal Ludroth", "Yian Garuga", "Volvidon", "Qurupeco"],
             answer: 2,
         },
     
         {
             id: 99,
-            options: [],
+            options: ["Yian Kut-Ku", "Purple Ludroth", "Crimson Qurupeco", "Viper Tobi-Kadachi"],
             answer: 3,
         },
     
         {
             id: 100,
-            options: [],
+            options: ["Great Jagras", "Gobul", "Khezu", "Chameleos"],
             answer: 4,
         },
     

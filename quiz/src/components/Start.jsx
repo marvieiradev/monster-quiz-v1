@@ -10,7 +10,7 @@ const Start = () => {
         <div className="app start flex flex-col items-center w-full max-w-[500px] justify-center h-[100vh] relative gap-8">
             <span className="h-line absolute bottom-0 block"></span>
             <span className="h-line absolute top-0 rotate-180 block"></span>
-            <div className="w-[300px] flex justify-center -rotate-[11deg] md:w-[350px]">
+            <div className="w-[310px] flex justify-center md:w-[375px]">
                 <img src={Logo} alt="logo" width="90%" />
             </div>
             <h2 className="text-lg leading-6 font-bold mx-14 text-center md:text-xl">Teste seus conhecimentos no Monster Hunter! Você conhece todos os monstros da franquia? Responda o nome do monstro de acordo com sua imagem</h2>
