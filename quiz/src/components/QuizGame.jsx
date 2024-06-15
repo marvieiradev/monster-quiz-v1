@@ -8,7 +8,7 @@ import Logo from "../img/logo_quiz.png";
 const QuizGame = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const currentQuestion = quizState.questions[quizState.currentQuestion];
-    const baseURL = "./src/img/monsters/"
+    const baseURL = "../src/img/monsters/"
 
     const onSelectOption = (option) => {
         dispatch({
@@ -26,7 +26,7 @@ const QuizGame = () => {
                     <p className="text-xl lg:text-2xl">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
                     <div className="w-[150px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl md:w-[200px]">
                         <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />
-                        <img src={`./src/img/ui/frame_monster.png`} className="absolute" />
+                        <img src={`../src/img/ui/frame_monster.png`} className="absolute" />
                     </div>
                     <p className="text-xl lg:text-2xl">Que Monstro é esse?</p>
 
@@ -48,8 +48,8 @@ const QuizGame = () => {
                 quizState.answerSelected && (
                     <Modal click={
                         () => dispatch({ type: "CHANGE_QUESTION" })}
-                        image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${baseURL}big/${currentQuestion.id}.png` : "./src/img/error.webp"}
-                        bg_image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `./src/img/light.png` : "./src/img/empty-big.webp"}
+                        image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${baseURL}big/${currentQuestion.id}.png` : "../src/img/error.webp"}
+                        bg_image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `../src/img/light.png` : "../src/img/empty-big.webp"}
                         mesage={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? "Certa Resposta!" : "Errou!"}
                         name={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${currentQuestion.options[currentQuestion.answer - 1]}` : "..."} />
                 )
