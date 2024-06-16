@@ -3,6 +3,9 @@ import { QuizContext } from "../context/quiz";
 import Button from "./Button";
 import { List } from "../functions";
 
+import Finish from "../img/ending.webp";
+import Star from "../img/ui/star.webp";
+
 const GameOver = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const stars = List(Math.floor(quizState.score / 200));
@@ -12,13 +15,13 @@ const GameOver = () => {
             <span className="v-line absolute right-0 rotate-180 block"></span>
             <h2 className="title text-[35px] mb-4 md:text-[45px]">Fim de Jogo!</h2>
             <div className="w-[80%] flex items-center justify-center mt-[-8%] mb-[-4%] pointer-events-none">
-                <img src="src/img/ending.webp" alt="image" />
+                <img src={Finish} alt="image" />
             </div>
             <div className="flex flex-row items-center">
                 {stars.map((item, index) => (
                     <>
                         <div className="w-[30px] md:w-[50px]">
-                            <img key={index} src="src/img/ui/star.webp" alt="star" />
+                            <img key={index} src={Star} alt="star" />
                         </div>
                     </>
                 ))}
