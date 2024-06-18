@@ -599,151 +599,157 @@ const data = [
         answer: 4,
     },
 
-    /*
- 
     {
         id: 101,
-        options: [],
+        options: ["Agnaktor", "Lagiacrus", "Lavasioth", "Mizutsune"],
         answer: 1,
     },
- 
+
     {
         id: 102,
-        options: [],
+        options: ["Lagiacrus", "Glacial Agnaktor", "Abyssal Lagiacrus", "Beotodos"],
         answer: 2,
     },
- 
+
     {
         id: 103,
-        options: [],
+        options: ["Safijiiva", "Dire Miralis", "Alatreon", "Amatsu"],
         answer: 3,
     },
- 
+
     {
         id: 104,
-        options: [],
+        options: ["Basarios", "Monoblos", "Black Diablos", "Jhen Mohran"],
         answer: 4,
     },
+
     {
         id: 105,
-        options: [],
+        options: ["Hallowed Jhen Mohran", "Monoblos", "White Monoblos", "Black Diablos"],
         answer: 1,
     },
- 
+
     {
         id: 106,
-        options: [],
+        options: ["Red Khezu", "Ceadeus", "Khezu", "Chameleos"],
         answer: 2,
     },
- 
+
     {
         id: 107,
-        options: [],
+        options: ["Khezu", "Chameleos", "Goldbeard Ceadeus", "Red Khezu"],
         answer: 3,
     },
- 
+
     {
         id: 108,
-        options: [],
+        options: ["Aptonoth", "Great Girros", "Ioprey", "Great Jaggi"],
         answer: 4,
     },
+
     {
         id: 109,
-        options: [],
+        options: ["Great Baggi", "Great Girros", "Great Jagras", "Great Jaggi"],
         answer: 1,
     },
- 
+
     {
         id: 110,
-        options: [],
+        options: ["Zorah Magdaros", "Duramboros", "Basarios", "Gore Magala"],
         answer: 2,
     },
- 
+
     {
         id: 111,
-        options: [],
+        options: ["Basarios", "Banbaro", "Rust Duramboros", "Uragaan"],
         answer: 3,
     },
- 
+
     {
         id: 112,
-        options: [],
+        options: ["Radobaan", "Noios", "Apceros", "Nibelsnarf"],
         answer: 4,
     },
+
     {
         id: 113,
-        options: [],
+        options: ["Zinogre", "Immortal Zinogre", "Eo Garudia", "Diablos"],
         answer: 1,
     },
- 
+
     {
         id: 114,
-        options: [],
+        options: ["Immortal Zinogre", "Stygian Zinogre", "Gore Magala", "Viper Tobi-Kadachi"],
         answer: 2,
     },
- 
+
     {
         id: 115,
-        options: [],
+        options: ["Gold Zinogre", "Stygian Zinogre", "Thunderlord Zinogre", "Ebony Odogaron"],
         answer: 3,
     },
- 
+
     {
         id: 116,
-        options: [],
+        options: ["IGoldbeard Ceadeus", "Viper Tobi-Kadachi", "Magnamalo", "Apex Zinogre"],
         answer: 4,
     },
+
     {
         id: 117,
-        options: [],
+        options: ["Amatsu", "Velkhana", "Mizutsune", "Soulseer Mizutsune"],
         answer: 1,
     },
- 
+
     {
         id: 118,
-        options: [],
+        options: ["Great Jagras", "Great Wroggi", "Jaggi", "Jagras"],
         answer: 2,
     },
- 
+
     {
         id: 119,
-        options: [],
+        options: ["Savage Deviljho", "Great Jagras", "Arzuros", "Akantor"],
         answer: 3,
     },
- 
+
     {
         id: 120,
-        options: [],
+        options: ["Tetsucabra", "Valstrax", "Akantor", "Redhelm Arzuros"],
         answer: 4,
     },
+
     {
         id: 121,
-        options: [],
+        options: ["Apex Arzuros", "Apex Zinogre", "Tetranadon", "Redhelm Arzuros"],
         answer: 1,
     },
- 
+
     {
         id: 122,
-        options: [],
+        options: ["Akantor", "Lagombi", "Arzuros", "Agnaktor"],
         answer: 2,
     },
- 
+
     {
         id: 123,
-        options: [],
+        options: ["Tetsucabra", "Agnaktor", "Snowbaron Lagombi", "Arzuros"],
         answer: 3,
     },
- 
+
     {
         id: 124,
-        options: [],
+        options: ["Arzuros", "Gargwa", "Najarala", "Volvidon"],
         answer: 4,
     },
+
     {
         id: 125,
-        options: [],
+        options: ["Brachydios", "Tigrex", "Deviljho", "Ebony Odogaron"],
         answer: 1,
     },
+
+    /*
  
     {
         id: 126,
