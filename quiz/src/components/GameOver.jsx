@@ -21,7 +21,7 @@ const GameOver = () => {
                 {stars.map((item, index) => (
                     <>
                         <div className="w-[30px] md:w-[50px]">
-                            <img key={index} src={Star} alt="star" />
+                            <img key={index.id} src={Star} alt="star" />
                         </div>
                     </>
                 ))}
