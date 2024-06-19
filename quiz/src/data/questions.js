@@ -749,36 +749,37 @@ const data = [
         answer: 1,
     },
 
-    /*
- 
     {
         id: 126,
-        options: [],
+        options: ["Brachydios", "Raging Brachydios", "Iceblast Brachydios", "Acidic Glavenus"],
         answer: 2,
     },
- 
+
     {
         id: 127,
-        options: [],
+        options: ["Crimson Fatalis", "Dalamadur", "Dire Miralis", "Fatalis"],
         answer: 3,
     },
- 
+
     {
         id: 128,
-        options: [],
+        options: ["Conga", "Kulu-Ya-Ku", "Tetsucabra", "Kecha Wacha"],
         answer: 4,
     },
+
     {
         id: 129,
-        options: [],
+        options: ["Ash Kecha Wacha", "Baggi", "Tetsucabra", "Arzuros"],
         answer: 1,
     },
- 
+
     {
         id: 130,
-        options: [],
+        options: ["Akantor", "Tetsucabra", "Agnaktor", "Arzuros"],
         answer: 2,
     },
+
+    /*
  
     {
         id: 131,
