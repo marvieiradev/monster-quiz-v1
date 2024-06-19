@@ -23,7 +23,7 @@ const QuizGame = () => {
                 <div className="content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-4">
                     <span className="v-line absolute left-0 block"></span>
                     <span className="v-line absolute right-0 rotate-180 block"></span>
-                    <img src={Logo} alt="logo" className="w-[80%]" />
+                    <img src={Logo} alt="logo" className="w-[70%]" />
                     <p className="text-xl lg:text-2xl">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
                     <div className="w-[150px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl md:w-[200px]">
                         <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />
