@@ -511,7 +511,7 @@ const data = [
 
     {
         id: 86,
-        options: ["Sand Barioth", "Frostfang Barioth", "Sandstone Basarios", "Apex Zinogre"],
+        options: ["Frostfang Barioth", "Sand Barioth", "Sandstone Basarios", "Apex Zinogre"],
         answer: 2,
     },
 
