@@ -3,8 +3,8 @@ import { QuizContext } from "../context/quiz";
 
 import Option from "./Option";
 import Modal from "./Modal";
-import Logo from "../img/logo_quiz.png";
-import Frame from "../img/ui/frame_monster.png";
+import Logo from "../img/logo_quiz.webp";
+import Frame from "../img/ui/frame_monster.webp";
 
 const QuizGame = () => {
     const [quizState, dispatch] = useContext(QuizContext);
