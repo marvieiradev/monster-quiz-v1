@@ -10,6 +10,7 @@ import Star2 from "../img/ui/star2.webp";
 const GameOver = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const stars = List(Math.floor(quizState.score / 200));
+
     return (
         <div className="app flex flex-col items-center w-full max-w-[500px] justify-center h-[100vh] relative gap-6 md:gap-8">
             <span className="v-line absolute left-0 block"></span>
@@ -22,7 +23,7 @@ const GameOver = () => {
                 {stars.map((item, index) => (
                     <>
                         <div className="w-[40px] md:w-[60px] p-1">
-                            <img key={index.id} src={stars >= 5 ? Star2 : Star1} alt="star" />
+                            <img key={index} src={stars.length >= 5 ? Star2 : Star1} alt="star" />
                         </div>
                     </>
                 ))}

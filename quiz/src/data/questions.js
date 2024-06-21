@@ -433,7 +433,7 @@ const data = [
 
     {
         id: 73,
-        options: ["Doom Estrellian", "Destruction Rathalos", "Hypnocatrice", "Estrellian"],
+        options: ["Hypnocatrice", "Doom Estrellian", "Destruction Rathalos", "Estrellian"],
         answer: 1,
     },
 
@@ -779,583 +779,586 @@ const data = [
         answer: 2,
     },
 
-    /*
- 
     {
         id: 131,
-        options: [],
+        options: ["Redhelm Arzuros", "Arzuros", "Berserk Tetsucabra", "Akantor"],
         answer: 3,
     },
- 
+
     {
         id: 132,
-        options: [],
+        options: ["Akantor", "Arzuros", "Diablos", "Drilltusk Tetsucabra"],
         answer: 4,
     },
+
     {
         id: 133,
-        options: [],
+        options: ["Zamtrios", "Zinogre", "Tigrex", "Lavasioth"],
         answer: 1,
     },
- 
+
     {
         id: 134,
-        options: [],
+        options: ["Tigrex", "Tigerstripe Zamtrios", "Brute Tigrex", "Molten Tigrex"],
         answer: 2,
     },
- 
+
     {
         id: 135,
-        options: [],
+        options: ["Delex", "Desert Seltas", "Najarala", "Dalamadur"],
         answer: 3,
     },
- 
+
     {
         id: 136,
-        options: [],
+        options: ["Dalamadur", "Lagiacrus", "Delex", "Tidal Najarala"],
         answer: 4,
     },
+
     {
         id: 137,
-        options: [],
+        options: ["Seltas Queen", "Desert Seltas", "Hermitaur", "Najarala"],
         answer: 1,
     },
- 
+
     {
         id: 138,
-        options: [],
+        options: ["Jyuratodus", "Desert Seltas Queen", "Shrouded Nerscylla", "Diablos"],
         answer: 2,
     },
- 
+
     {
         id: 139,
-        options: [],
+        options: ["Vespoid", "Dahren Mohran", "Nerscylla", "Monoblos"],
         answer: 3,
     },
- 
+
     {
         id: 140,
-        options: [],
+        options: ["Vespoid", "Hornetaur", "Zamite", "Shrouded Nerscylla"],
         answer: 4,
     },
+
     {
         id: 141,
-        options: [],
+        options: ["Gore Magala", "Kushala Daora", "Fatalis", "Dalamadur"],
         answer: 1,
     },
- 
+
     {
         id: 142,
-        options: [],
+        options: ["Rusted Kushala Daora", "Chaotic Gore Magala", "Basarios", "Kushala Daora"],
         answer: 2,
     },
- 
+
     {
         id: 143,
-        options: [],
+        options: ["Rusted Kushala Daora", "Safijiiva", "Shagaru Magala", "Alatreon"],
         answer: 3,
     },
- 
+
     {
         id: 144,
-        options: [],
+        options: ["Gore Magala", "Risen Tesotra", "Chaotic Gore Magala", "Risen Shagaru Magala"],
         answer: 4,
     },
+
     {
         id: 145,
-        options: [],
+        options: ["Dahren Mohran", "Desert Seltas", "Nerscylla", "Gajau"],
         answer: 1,
     },
- 
+
     {
         id: 146,
-        options: [],
+        options: ["Abyssal Lagiacrus", "Dalamadur", "Lagiacrus", "Najarala"],
         answer: 2,
     },
- 
+
     {
         id: 147,
-        options: [],
+        options: ["Najarala", "Lagiacrus", "Shah Dalamadur", "Plesioth"],
         answer: 3,
     },
- 
+
     {
         id: 148,
-        options: [],
+        options: ["Vespoid", "Zamite", "Hermitaur", "Seltas"],
         answer: 4,
     },
+
     {
         id: 149,
-        options: [],
+        options: ["Desert Seltas", "Seltas", "Delex", "Gajau"],
         answer: 1,
     },
- 
+
     {
         id: 150,
-        options: [],
+        options: ["Asthalos", "Seregios", "Rathalos", "Bazelgeuse"],
         answer: 2,
     },
- 
-    {
-        id: 151,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 152,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 153,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 154,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 155,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 156,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 157,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 158,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 159,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 160,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 161,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 162,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 163,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 164,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 165,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 166,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 167,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 168,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 169,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 170,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 171,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 172,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 173,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 174,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 175,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 176,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 177,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 178,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 179,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 180,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 181,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 182,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 183,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 184,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 185,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 186,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 187,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 188,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 189,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 190,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 191,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 192,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 193,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 194,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 195,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 196,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 197,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 198,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 199,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 200,
-        options: [],
-        answer: 4,
-    },
- 
-    {
-        id: 201,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 202,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 203,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 204,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 205,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 206,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 207,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 208,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 209,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 210,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 211,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 212,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 213,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 214,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 215,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 216,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 217,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 218,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 219,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 220,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 221,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 222,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 223,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 224,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 225,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 226,
-        options: [],
-        answer: 2,
-    },
- 
-    {
-        id: 227,
-        options: [],
-        answer: 3,
-    },
- 
-    {
-        id: 228,
-        options: [],
-        answer: 4,
-    },
-    {
-        id: 229,
-        options: [],
-        answer: 1,
-    },
- 
-    {
-        id: 230,
-        options: [],
-        answer: 2,
-    },*/
+    /*
+       {
+           id: 151,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 152,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 153,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 154,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 155,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 156,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 157,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 158,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 159,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 160,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 161,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 162,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 163,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 164,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 165,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 166,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 167,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 168,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 169,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 170,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 171,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 172,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 173,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 174,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 175,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 176,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 177,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 178,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 179,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 180,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 181,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 182,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 183,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 184,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 185,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 186,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 187,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 188,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 189,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 190,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 191,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 192,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 193,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 194,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 195,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 196,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 197,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 198,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 199,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 200,
+           options: [],
+           answer: 4,
+       },
+    
+       {
+           id: 201,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 202,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 203,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 204,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 205,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 206,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 207,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 208,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 209,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 210,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 211,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 212,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 213,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 214,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 215,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 216,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 217,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 218,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 219,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 220,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 221,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 222,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 223,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 224,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 225,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 226,
+           options: [],
+           answer: 2,
+       },
+    
+       {
+           id: 227,
+           options: [],
+           answer: 3,
+       },
+    
+       {
+           id: 228,
+           options: [],
+           answer: 4,
+       },
+       {
+           id: 229,
+           options: [],
+           answer: 1,
+       },
+    
+       {
+           id: 230,
+           options: [],
+           answer: 2,
+       },*/
 ];
 
 export default data;
