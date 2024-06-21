@@ -28,7 +28,7 @@ const QuizGame = () => {
                     <img src={Logo} alt="logo" className="w-[70%]" />
                     <p className="text-xl lg:text-2xl mb-[-10px]">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
                     <div className="w-[80%]">
-                        <img src={`./bar/p${Math.ceil(perc / 2)}.svg`} alt="" className="mt-[-5px] pointer-events-none" />
+                        <img src={`./bar/br-${Math.ceil(perc)}.svg`} alt="" className="mt-[-5px] pointer-events-none" />
                     </div>
                     <div className="w-[150px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl md:w-[200px]">
                         <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />
