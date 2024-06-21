@@ -4,7 +4,8 @@ import Button from "./Button";
 import { List } from "../functions";
 
 import Finish from "../img/ending.webp";
-import Star from "../img/ui/star.webp";
+import Star1 from "../img/ui/star1.webp";
+import Star2 from "../img/ui/star2.webp";
 
 const GameOver = () => {
     const [quizState, dispatch] = useContext(QuizContext);
@@ -20,8 +21,8 @@ const GameOver = () => {
             <div className="flex flex-row items-center pointer-events-none">
                 {stars.map((item, index) => (
                     <>
-                        <div className="w-[45px] md:w-[65px]">
-                            <img key={index.id} src={Star} alt="star" />
+                        <div className="w-[40px] md:w-[60px] p-1">
+                            <img key={index.id} src={stars >= 5 ? Star2 : Star1} alt="star" />
                         </div>
                     </>
                 ))}
