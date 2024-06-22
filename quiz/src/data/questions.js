@@ -901,7 +901,7 @@ const data = [
 
     {
         id: 151,
-        options: ["Gogmazios"],
+        options: ["Amatsu", "Garangolm", "Gogmazios", "Gaismagorm"],
         answer: 3,
     },
 
