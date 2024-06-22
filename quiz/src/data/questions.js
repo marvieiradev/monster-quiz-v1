@@ -898,467 +898,486 @@ const data = [
         options: ["Asthalos", "Seregios", "Rathalos", "Bazelgeuse"],
         answer: 2,
     },
-    /*
-       {
-           id: 151,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 152,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 153,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 154,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 155,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 156,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 157,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 158,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 159,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 160,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 161,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 162,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 163,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 164,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 165,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 166,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 167,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 168,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 169,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 170,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 171,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 172,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 173,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 174,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 175,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 176,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 177,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 178,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 179,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 180,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 181,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 182,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 183,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 184,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 185,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 186,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 187,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 188,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 189,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 190,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 191,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 192,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 193,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 194,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 195,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 196,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 197,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 198,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 199,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 200,
-           options: [],
-           answer: 4,
-       },
-    
-       {
-           id: 201,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 202,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 203,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 204,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 205,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 206,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 207,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 208,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 209,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 210,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 211,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 212,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 213,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 214,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 215,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 216,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 217,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 218,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 219,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 220,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 221,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 222,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 223,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 224,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 225,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 226,
-           options: [],
-           answer: 2,
-       },
-    
-       {
-           id: 227,
-           options: [],
-           answer: 3,
-       },
-    
-       {
-           id: 228,
-           options: [],
-           answer: 4,
-       },
-       {
-           id: 229,
-           options: [],
-           answer: 1,
-       },
-    
-       {
-           id: 230,
-           options: [],
-           answer: 2,
-       },*/
+
+    {
+        id: 151,
+        options: ["Gogmazios"],
+        answer: 3,
+    },
+
+    {
+        id: 152,
+        options: ["Cortos", "Yian Garuga", "Kulu-Ya-Ku", "Malfestio"],
+        answer: 4,
+    },
+
+    {
+        id: 153,
+        options: ["Nightcloak Malfestio", "Gargwa", "Coral Pukei-Pukei", "Tobi-Kadachi"],
+        answer: 1,
+    },
+
+    {
+        id: 154,
+        options: ["Acidic Glavenus", "Glavenus", "Brute Tigrex", "Gravios"],
+        answer: 2,
+    },
+
+    {
+        id: 155,
+        options: ["Gravios", "Steel Uragaan", "Acidic Glavenus", "Glavenus"],
+        answer: 3,
+    },
+
+    {
+        id: 156,
+        options: ["Gravios", "Acidic Glavenus", "Aberrant Deviljho", "Hellblade Glavenus"],
+        answer: 4,
+    },
+
+    {
+        id: 157,
+        options: ["Asthalos", "Gold Rathian", "Seregios", "Seething Bazelgeuse"],
+        answer: 1,
+    },
+
+    {
+        id: 158,
+        options: ["Yian Garuga", "Boltreaver Asthalos", "Rathian", "Dreadqueen Rathian"],
+        answer: 2,
+    },
+
+    {
+        id: 159,
+        options: ["Amatsu", "Odogaron", "Mizutsune", "Kirin"],
+        answer: 3,
+    },
+
+    {
+        id: 160,
+        options: ["Malfestio", "Namielle", "Amatsu", "Violet Mizutsune"],
+        answer: 4,
+    },
+
+    {
+        id: 161,
+        options: ["Soulseer Mizutsune", "Mizutsune", "Namielle", "Amatsu"],
+        answer: 1,
+    },
+
+    {
+        id: 162,
+        options: ["Valstrax", "Apex Mizutsune", "Velkhana", "Namielle"],
+        answer: 2,
+    },
+
+    {
+        id: 163,
+        options: ["Popo", "Arzuros", "Gammoth", "Redhelm Arzuros"],
+        answer: 3,
+    },
+
+    {
+        id: 164,
+        options: ["Popo", "Arzuros", "Bullfango", "Elderfrost Gammoth"],
+        answer: 4,
+    },
+
+    {
+        id: 165,
+        options: ["Nakarkos", "Zinogre", "Tigrex", "Tigerstripe Zamtrios"],
+        answer: 1,
+    },
+
+    {
+        id: 166,
+        options: ["Great Girros", "Great Maccao", "Great Jagras", "Great Jaggi"],
+        answer: 2,
+    },
+
+    {
+        id: 167,
+        options: ["Asthalos", "Seregios", "Valstrax", "Rusted Kushala Daora"],
+        answer: 3,
+    },
+
+    {
+        id: 168,
+        options: ["Nargacuga", "Asthalos", "Seregios", "Crim. Glow Valstrax"],
+        answer: 4,
+    },
+
+    {
+        id: 169,
+        options: ["Risen Crim. Glow Valstrax", "Risen Kushala Daora", "Risen Chameleos", "Ahtal-Neset"],
+        answer: 1,
+    },
+
+    {
+        id: 170,
+        options: ["Ahtal-Ka", "Ahtal-Neset", "Nerscylla", "Apiposu"],
+        answer: 2,
+    },
+
+    {
+        id: 171,
+        options: ["Nerscylla", "Altaroth", "Ahtal-Ka", "Rachnoid"],
+        answer: 3,
+    },
+
+    {
+        id: 172,
+        options: ["Zinogre", "Zamtrios", "Thunder Lord Zinogre", "Magnamalo"],
+        answer: 4,
+    },
+
+    {
+        id: 173,
+        options: ["Scorned Magnamalo", "Magnamalo", "Stygian Zinogre", "Thunderlord Zinogre"],
+        answer: 1,
+    },
+
+    {
+        id: 174,
+        options: ["Akantor", "Bishaten", "Rajang", "Zorah Magdaros"],
+        answer: 2,
+    },
+
+    {
+        id: 175,
+        options: ["Rakna-Kadaki", "Rachnoid", "Blood Orange Bishaten", "Bishaten"],
+        answer: 3,
+    },
+
+    {
+        id: 176,
+        options: ["Pukei-Pukei", "Bnahabra", "Almudron", "Aknosom"],
+        answer: 4,
+    },
+
+    {
+        id: 177,
+        options: ["Tetranadon", "Rachnoid", "Apiposu", "Larinoth"],
+        answer: 1,
+    },
+
+    {
+        id: 178,
+        options: ["Almudron", "Somnacanth", "Aknosom", "Bishaten"],
+        answer: 2,
+    },
+
+    {
+        id: 179,
+        options: ["Rachnoid", "Rakna-Kadaki", "Aurora Somnacanth", "Tetranadon"],
+        answer: 3,
+    },
+
+    {
+        id: 180,
+        options: ["Bnahabra", "Remobra", "Hermitaur", "Rakna-Kadaki"],
+        answer: 4,
+    },
+
+    {
+        id: 181,
+        options: ["Pyre Rakna-Kadaki", "Rakna-Kadaki", "Pyrantula", "Nerscylla"],
+        answer: 1,
+    },
+
+    {
+        id: 182,
+        options: ["Arzuros", "Almudron", "Nerscylla", "Apex Rathian"],
+        answer: 2,
+    },
+
+    {
+        id: 183,
+        options: ["Laviente", "Najarala", "Magma Almudron", "Almudron"],
+        answer: 3,
+    },
+
+    {
+        id: 184,
+        options: ["Akantor", "Lagiacrus", "Dalamadur", "Wind Serpent Ibushi"],
+        answer: 4,
+    },
+
+    {
+        id: 185,
+        options: ["Goss Harag", "Arzuros", "Magnamalo", "Zinogre"],
+        answer: 1,
+    },
+
+    {
+        id: 186,
+        options: ["Great Jaggi", "Great Izuchi", "Great Jagras", "Tetranadon"],
+        answer: 2,
+    },
+
+    {
+        id: 187,
+        options: ["Duramboros", "Rusted Kushala", "Thunder Serpent Narwa", "Akantor"],
+        answer: 3,
+    },
+
+    {
+        id: 188,
+        options: ["Wind Serpent Ibushi", "Mizutsune", "Amatsu", "Narwa the Allmother"],
+        answer: 4,
+    },
+
+    {
+        id: 189,
+        options: ["Anjanath", "Tigerstripe Zamtrios", "Tigrex", "Odogaron"],
+        answer: 1,
+    },
+
+    {
+        id: 190,
+        options: ["Anjanath", "Fulgur Anjanath", "Aberrant Deviljho", "Brute Tigrex"],
+        answer: 2,
+    },
+
+    {
+        id: 191,
+        options: ["Great Baggi", "Great Girros", "Great Jagras", "Great Jaggi"],
+        answer: 3,
+    },
+
+    {
+        id: 192,
+        options: ["Tzitzi-Ya-Ku", "Kulu-Ya-Ku", "Yian Kut-Ku", "Pukei-Pukei"],
+        answer: 4,
+    },
+
+    {
+        id: 193,
+        options: ["Coral Pukei-Pukei", "Qurupeco", "Yian Garuga", "Yian Kut-Ku"],
+        answer: 1,
+    },
+
+    {
+        id: 194,
+        options: ["Rusted Kushala", "Nergigante", "Merphistophelin", "Lunastra"],
+        answer: 2,
+    },
+
+    {
+        id: 195,
+        options: ["Xenojiiva", "Nergigante", "Ruiner Nergigante", "Volvidon"],
+        answer: 3,
+    },
+
+    {
+        id: 196,
+        options: ["Dire Miralis", "Alatreon", "Xenojiiva", "Safijiiva"],
+        answer: 4,
+    },
+
+    {
+        id: 197,
+        options: ["Xenojiiva", "Oltura", "Kulve Taroth", "Safijiiva"],
+        answer: 1,
+    },
+
+    {
+        id: 198,
+        options: ["Lao-Shan Lung", "Zorah Magdaros", "Basarios", "Dire Miralis"],
+        answer: 2,
+    },
+
+    {
+        id: 199,
+        options: ["Yian Garuga", "Yian Kut-Ku", "Kulu-Ya-Ku", "Tzitzi-Ya-Ku"],
+        answer: 3,
+    },
+
+    {
+        id: 200,
+        options: ["Cephadrome", "Plesioth", "Lavasioth", "Jyuratodus"],
+        answer: 4,
+    },
+
+    {
+        id: 201,
+        options: ["Tobi Kadachi", "Odogaron", "Ebony Odogaron", "Zinogre"],
+        answer: 1,
+    },
+
+    {
+        id: 202,
+        options: ["Acidic Glavenus", "Viper Tobi-Kadachi", "Zamite", "Great Girros"],
+        answer: 2,
+    },
+
+    {
+        id: 203,
+        options: ["Legiana", "Nightshade Paolumu", "Paolumu", "Seregios"],
+        answer: 3,
+    },
+
+    {
+        id: 204,
+        options: ["Paolumu", "Crimson Qurupeco", "Kulu-Ya-Ku", "Nightshade Paolumu"],
+        answer: 4,
+    },
+
+    {
+        id: 205,
+        options: ["Legiana", "Nightshade Paolumu", "Paolumu", "Rathian"],
+        answer: 1,
+    },
+
+    {
+        id: 206,
+        options: ["Velkhana", "Shrieking Legiana", "Legiana", "Paolumu"],
+        answer: 2,
+    },
+
+    {
+        id: 207,
+        options: ["Great Jaggi", "Great Jagras", "Great Girros", "Great Baggi"],
+        answer: 3,
+    },
+
+    {
+        id: 208,
+        options: ["Zinogre", "Ebony Odogaron", "Tigerstripe Zamtrios", "Odogaron"],
+        answer: 4,
+    },
+
+    {
+        id: 209,
+        options: ["Ebony Odogaron", "Black Diablos", "Tigerstripe Zamtrios", "Brute Tigrex"],
+        answer: 1,
+    },
+
+    {
+        id: 210,
+        options: ["Uragaan", "Radobaan", "Duramboros", "Crystalbeard Uragaan"],
+        answer: 2,
+    },
+
+    {
+        id: 211,
+        options: ["Dire Miralis", "Kushala Daora", "Vaal Hazak", "Valstrax"],
+        answer: 3,
+    },
+
+    {
+        id: 212,
+        options: ["Vaal Hazak", "Rusted Kushala Daora", "Dalamadur", "Blackveil Vaal Hazak"],
+        answer: 4,
+    },
+
+    {
+        id: 213,
+        options: ["Dodogama", "Lavasioth", "Monoblos", "Uragaan"],
+        answer: 1,
+    },
+
+    {
+        id: 214,
+        options: ["Dire Miralis", "Kulve Taroth", "Basarios", "Shara Ishvalda"],
+        answer: 2,
+    },
+
+    {
+        id: 215,
+        options: ["Seregios", "Acidic Glavenus", "Bazelgeuse", "Asthalos"],
+        answer: 3,
+    },
+
+    {
+        id: 216,
+        options: ["Bazelgeuse", "Seregios", "Shrieking Legiana", "Seething Bazelgeuse"],
+        answer: 4,
+    },
+
+    {
+        id: 217,
+        options: ["Tzitzi-Ya-Ku", "Yian Garuga", "Yian Kut-Ku", "Kulu-Ya-Ku"],
+        answer: 1,
+    },
+
+    {
+        id: 218,
+        options: ["Jyuratodus", "Beotodos", "Lavasioth", "Green Plesioth"],
+        answer: 2,
+    },
+
+    {
+        id: 219,
+        options: ["Glavenus", "Popo", "Banbaro", "Gammoth"],
+        answer: 3,
+    },
+
+    {
+        id: 220,
+        options: ["Amatsu", "Mizutsune", "Blackveil Vaal Hazak", "Velkhana"],
+        answer: 4,
+    },
+
+    {
+        id: 221,
+        options: ["Namielle", "Mizutsune", "Velkhana", "Amatsu"],
+        answer: 1,
+    },
+
+    {
+        id: 222,
+        options: ["Oltura", "Shara Ishvalda", "Safijiiva", "Basarios"],
+        answer: 2,
+    },
+
+    {
+        id: 223,
+        options: ["Fatalis", "Oltura", "Malzeno", "Alatreon"],
+        answer: 3,
+    },
+
+    {
+        id: 224,
+        options: ["Oltura", "Disaster Wyvern", "Alatreon", "Primordial Malzeno"],
+        answer: 4,
+    },
+
+    {
+        id: 225,
+        options: ["Lunagaron", "Palamute", "Odogaron", "Ebony Odogaron"],
+        answer: 1,
+    },
+
+    {
+        id: 226,
+        options: ["Gaismagorm", "Garangolm", "Gowngoat", "Goss Harag"],
+        answer: 2,
+    },
+
+    {
+        id: 227,
+        options: ["Lagombi", "Gowngoat", "Gaismagorm", "Disaster Wyvern"],
+        answer: 3,
+    },
+
+    {
+        id: 228,
+        options: ["Seregios", "Bazelgeuse", "Asthalos", "Espinas"],
+        answer: 4,
+    },
+
+    {
+        id: 229,
+        options: ["Flaming Espinas", "Disaster Wyvern", "Dreadking Rathalos", "Flame Rathalos"],
+        answer: 1,
+    },
+
+    {
+        id: 230,
+        options: ["Primordial Malzeno", "Oltura", "Disaster Wyvern", "Alatreon"],
+        answer: 2,
+    },
 ];
 
 export default data;
