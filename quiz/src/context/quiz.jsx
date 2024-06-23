@@ -78,6 +78,7 @@ const quizReducer = (state, action) => {
                 score = 100;
             } else {
                 tempo = 0;
+                score = -90;
             }
 
             return {
