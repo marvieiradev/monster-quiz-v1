@@ -9,7 +9,8 @@ import Frame from "../img/ui/frame_monster.webp";
 const QuizGame = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const currentQuestion = quizState.questions[quizState.currentQuestion];
-    const baseURL = "https://raw.githubusercontent.com/marvieiradev/imgs-projetos/master/quiz-mh/"
+    const baseURLGit = "https://raw.githubusercontent.com/marvieiradev/imgs-projetos/master/quiz-mh/"
+    const baseURL = "https://quiz-mh.s3.amazonaws.com/" //AWS S3
 
     const onSelectOption = (option) => {
         dispatch({
