@@ -37,7 +37,7 @@ const QuizGame = () => {
                     </div>
                     <p className="text-xl lg:text-2xl">Que Monstro é esse?</p>
 
-                    <p className="">{currentQuestion.options[currentQuestion.answer - 1]}</p>
+                    {/* <p className="">{currentQuestion.options[currentQuestion.answer - 1]}</p>*/}
 
                     <div className="options w-[80%] flex flex-col gap-4 text-lg">
                         {currentQuestion.options.map((option) => (
