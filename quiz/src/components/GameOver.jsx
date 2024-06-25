@@ -9,7 +9,7 @@ import Star2 from "../img/ui/star2.webp";
 
 const GameOver = () => {
     const [quizState, dispatch] = useContext(QuizContext);
-    const stars = List(Math.floor(quizState.score / 200));
+    const stars = List(quizState.score <= 1199 ? Math.floor(quizState.corrects / 2) : 6);
 
     return (
         <div className="app flex flex-col items-center w-full max-w-[500px] justify-center h-[100vh] relative gap-6 md:gap-8">
