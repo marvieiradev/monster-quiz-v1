@@ -22,13 +22,13 @@ const QuizGame = () => {
     var perc = quizState.currentQuestion + 1;
     return (
         <>
-            <div className="app flex flex-col items-center w-full max-w-[500px] justify-center h-[100vh] relative">
+            <div className="app flex flex-col items-center w-full justify-center h-[100vh] relative md:w-[500px] xl:w-[800px]">
                 <div className="content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-4">
                     <span className="v-line absolute left-0 block"></span>
                     <span className="v-line absolute right-0 rotate-180 block"></span>
-                    <img src={Logo} alt="logo" className="w-[70%]" />
+                    <img src={Logo} alt="logo" className="w-[70%] xl:w-[60%]" />
                     <p className="text-xl lg:text-2xl mb-[-10px]">Desafio {quizState.currentQuestion + 1} de {quizState.maxQuestions}</p>
-                    <div className="w-[80%]">
+                    <div className="w-[80%] xl:w-[60%]">
                         <img src={`./bar/br-${Math.ceil(perc)}.svg`} alt="" className="mt-[-5px] pointer-events-none" />
                     </div>
                     <div className="w-[150px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl md:w-[200px]">
@@ -39,7 +39,7 @@ const QuizGame = () => {
 
                     {/* <p className="">{currentQuestion.options[currentQuestion.answer - 1]}</p>*/}
 
-                    <div className="options w-[80%] flex flex-col gap-4 text-lg">
+                    <div className="options w-[80%] flex flex-col gap-4 text-lg xl:grid xl:grid-cols-2">
                         {currentQuestion.options.map((option) => (
                             <Option option={option}
                                 key={option}
