@@ -9,7 +9,6 @@ import Frame from "../img/ui/frame_monster.webp";
 const QuizGame = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const currentQuestion = quizState.questions[quizState.currentQuestion];
-    const baseURLGit = "https://raw.githubusercontent.com/marvieiradev/imgs-projetos/master/quiz-mh/"
     const baseURL = "https://quiz-mh.s3.amazonaws.com/" //AWS S3
 
     const onSelectOption = (option) => {
@@ -36,8 +35,6 @@ const QuizGame = () => {
                         <img src={Frame} className="absolute" />
                     </div>
                     <p className="text-xl lg:text-2xl">Que Monstro é esse?</p>
-
-                    {/* <p className="">{currentQuestion.options[currentQuestion.answer - 1]}</p>*/}
 
                     <div className="options w-[80%] flex flex-col gap-4 text-lg xl:grid xl:grid-cols-2">
                         {currentQuestion.options.map((option) => (
