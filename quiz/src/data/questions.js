@@ -1378,6 +1378,24 @@ const data = [
         options: ["Primordial Malzeno", "Oltura", "Disaster Wyvern", "Alatreon"],
         answer: 2,
     },
+
+    {
+        id: 231,
+        options: ["Bnahabra", "Yama Tsukami", "Balahara", "Najarala"],
+        answer: 3,
+    },
+
+    {
+        id: 232,
+        options: ["Rust Duramboros", "Dodogama", "Goss Harag", "Doshaguma"],
+        answer: 4,
+    },
+
+    {
+        id: 233,
+        options: ["Chatacabra", "Tetsucabra", "Drilltusk Tetsucabra", "Redhelm Arzuros"],
+        answer: 1,
+    },
 ];
 
 export default data;
