@@ -1379,20 +1379,22 @@ const data = [
         answer: 2,
     },
 
+    ////////////////////////////////////////////
+
     {
-        id: 231,
+        id: 300,
         options: ["Bnahabra", "Yama Tsukami", "Balahara", "Najarala"],
         answer: 3,
     },
 
     {
-        id: 232,
+        id: 301,
         options: ["Rust Duramboros", "Dodogama", "Goss Harag", "Doshaguma"],
         answer: 4,
     },
 
     {
-        id: 233,
+        id: 302,
         options: ["Chatacabra", "Tetsucabra", "Drilltusk Tetsucabra", "Redhelm Arzuros"],
         answer: 1,
     },
