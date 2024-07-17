@@ -9,8 +9,7 @@ import Frame from "../img/ui/frame_monster.webp";
 const QuizGame = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const currentQuestion = quizState.questions[quizState.currentQuestion];
-    const baseURL = "https://quiz-mh.s3.amazonaws.com/" //AWS S3
-
+    const baseURL = "./monsters/"
     const onSelectOption = (option) => {
         dispatch({
             type: "CHECK_ANSWER",
