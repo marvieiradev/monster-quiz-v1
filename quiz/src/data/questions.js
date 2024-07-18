@@ -1382,19 +1382,19 @@ const data = [
     ////////////////////////////////////////////
 
     {
-        id: 300,
+        id: 301,
         options: ["Bnahabra", "Yama Tsukami", "Balahara", "Najarala"],
         answer: 3,
     },
 
     {
-        id: 301,
+        id: 302,
         options: ["Rust Duramboros", "Dodogama", "Goss Harag", "Doshaguma"],
         answer: 4,
     },
 
     {
-        id: 302,
+        id: 303,
         options: ["Chatacabra", "Tetsucabra", "Drilltusk Tetsucabra", "Redhelm Arzuros"],
         answer: 1,
     },
