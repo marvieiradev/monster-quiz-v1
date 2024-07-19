@@ -53,7 +53,7 @@ const QuizGame = () => {
                         image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${baseURL}big/${currentQuestion.id}.webp` : "./error.webp"}
                         bg_image={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? "./light.webp" : "./empty-big.webp"}
                         mesage={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? "Certa Resposta!" : "Errou!"}
-                        name={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${currentQuestion.options[currentQuestion.answer - 1]}` : "..."} />
+                        name={currentQuestion.options[currentQuestion.answer - 1] === quizState.answerSelected ? `${currentQuestion.options[currentQuestion.answer - 1]}` : "Que pena!"} />
                 )
             }
         </>

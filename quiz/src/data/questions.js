@@ -1379,24 +1379,442 @@ const data = [
         answer: 2,
     },
 
-    ////////////////////////////////////////////
-
     {
-        id: 301,
-        options: ["Bnahabra", "Yama Tsukami", "Balahara", "Najarala"],
+        id: 231,
+        options: ["Giaorugu", "Green Plesioth", "Abiorugu", "Onimusha"],
         answer: 3,
     },
 
     {
-        id: 302,
-        options: ["Rust Duramboros", "Dodogama", "Goss Harag", "Doshaguma"],
+        id: 232,
+        options: ["Pokaradon", "Baruragaru", "Gurenzeburu", "Akura Jebia"],
         answer: 4,
     },
 
     {
-        id: 303,
-        options: ["Chatacabra", "Tetsucabra", "Drilltusk Tetsucabra", "Redhelm Arzuros"],
+        id: 233,
+        options: ["Akura Vashimu", "Midogaron", "Onimusha", "Mi Ru"],
         answer: 1,
+    },
+
+    {
+        id: 234,
+        options: ["Mernos", "Anorupatisu", "Anorupatisu", "Baelidae"],
+        answer: 2,
+    },
+
+    {
+        id: 235,
+        options: ["Eruzerion", "Abiorugu", "Baruragaru", "Bogabadorumu"],
+        answer: 3,
+    },
+
+    {
+        id: 236,
+        options: ["Lao-Shan Lung", "Rusted Kushala Daora", "Crimson Fatalis", "Berukyurosu"],
+        answer: 4,
+    },
+
+    {
+        id: 237,
+        options: ["Bogabadorumu", "Zenaserisu", "Farunokku", "Kuarusepusu"],
+        answer: 1,
+    },
+
+    {
+        id: 238,
+        options: ["Bogabadorumu", "Diorekkusu", "Rukodiora", "Rebidiora"],
+        answer: 2,
+    },
+
+    {
+        id: 239,
+        options: ["Gurenzeburu", "Malzeno", "Disufiroa", "Poborubarumu"],
+        answer: 3,
+    },
+
+    {
+        id: 240,
+        options: ["Merphistophelin", "Eruzerion", "Abiorugu", "Doragyurosu"],
+        answer: 4,
+    },
+
+    {
+        id: 241,
+        options: ["Duremudira", "Odibatorasu", "Beotodus", "Dyuragaua"],
+        answer: 1,
+    },
+
+    {
+        id: 242,
+        options: ["Baruragaru", "Dyuragaua", "Barnos", "Kamu Orugaron"],
+        answer: 2,
+    },
+
+    {
+        id: 243,
+        options: ["Giaorugu", "Goruganosu", "Eruzerion", "Poborubarumu"],
+        answer: 3,
+    },
+
+    {
+        id: 244,
+        options: ["Disaster Wyvern", "Caeserber", "Gogomoa", "Farunokku"],
+        answer: 4,
+    },
+
+    {
+        id: 245,
+        options: ["Forokururu", "Bnahabra", "Inagami", "Meraginasu"],
+        answer: 1,
+    },
+
+    {
+        id: 246,
+        options: ["Kushala Daora", "Garuba Daora", "Rusted Kushala Daora", "Pariapuria"],
+        answer: 2,
+    },
+
+    {
+        id: 247,
+        options: ["Zerureusu", "Hyujikiki", "Gasurabazura", "Baruragaru"],
+        answer: 3,
+    },
+
+    {
+        id: 248,
+        options: ["Plesioth", "Abiorugu", "Noios", "Giaorugu"],
+        answer: 4,
+    },
+
+    {
+        id: 249,
+        options: ["Gogomoa", "Estrellian", "Harudomerugu", "Mernos"],
+        answer: 1,
+    },
+
+    {
+        id: 250,
+        options: ["Poborubarumu", "Goruganosu", "Diorekkusu", "Rukodiora"],
+        answer: 2,
+    },
+
+    {
+        id: 251,
+        options: ["Varusaburosu", "Diorekkusu", "Guanzorumu", "Taikun Zamuza"],
+        answer: 3,
+    },
+
+    {
+        id: 252,
+        options: ["Inagami", "Midogaron", "Gogomoa", "Gureadomosu"],
+        answer: 4,
+    },
+
+    {
+        id: 253,
+        options: ["Gurenzeburu", "Mi Ru", "Tartaronis", "Baelidae"],
+        answer: 1,
+    },
+
+    {
+        id: 254,
+        options: ["Gasurabazura", "Harudomerugu", "Giaorugu", "Dyuragaua"],
+        answer: 2,
+    },
+
+    {
+        id: 255,
+        options: ["Voljang", "Gogomoa", "Hyujikiki", "Anorupatisu"],
+        answer: 3,
+    },
+
+    {
+        id: 256,
+        options: ["Rukodiora", "Taikun Zamuza", "Abiorugu", "Inagami"],
+        answer: 4,
+    },
+
+    {
+        id: 257,
+        options: ["Kamu Orugaron", "Dyuragaua", "Lightenna", "Xiang Tien"],
+        answer: 1,
+    },
+
+    {
+        id: 258,
+        options: ["Pokaradon", "Keoaruboru", "Disaster Wyvern", "Kuarusepusu"],
+        answer: 2,
+    },
+
+    {
+        id: 259,
+        options: ["Dalamadur", "Dire Miralis", "Laviente", "Lagiacrus"],
+        answer: 3,
+    },
+
+    {
+        id: 260,
+        options: ["Pokaradon", "Taikun Zamuza", "Keoaruboru", "Lolo Gougarf"],
+        answer: 4,
+    },
+
+    {
+        id: 261,
+        options: ["Meraginasu", "Uroktor", "Uragaan", "Pariapuria"],
+        answer: 1,
+    },
+
+    {
+        id: 262,
+        options: ["Gogomoa", "Mi Ru", "Harudomerugu", "Forokururu"],
+        answer: 2,
+    },
+
+    {
+        id: 263,
+        options: ["Barnos", "Slicemargl", "Midogaron", "Toa Tesukatora"],
+        answer: 3,
+    },
+
+    {
+        id: 264,
+        options: ["Baelidae", "Odibatorasu", "Dyuragaua", "Nono Orugaron"],
+        answer: 4,
+    },
+
+    {
+        id: 265,
+        options: ["Odibatorasu", "Guanzorumu", "Varusaburosu", "Duremudira"],
+        answer: 1,
+    },
+
+    {
+        id: 266,
+        options: ["Seregios", "Pariapuria", "Espinas", "Rukodiora"],
+        answer: 2,
+    },
+
+    {
+        id: 267,
+        options: ["Eruzerion", "Gureadomosu", "Poborubarumu", "Baruragaru"],
+        answer: 3,
+    },
+
+    {
+        id: 268,
+        options: ["Berukyurosu", "Akura Vashimu", "Rebidiora", "Pokaradon"],
+        answer: 4,
+    },
+
+    {
+        id: 269,
+        options: ["Ray Gougarf", "Garuba Daora", "Harudomerugu", "Disufiroa"],
+        answer: 1,
+    },
+
+    {
+        id: 270,
+        options: ["Anorupatisu", "Rebidiora", "Taikun Zamuza", "Meraginasu"],
+        answer: 2,
+    },
+
+    {
+        id: 271,
+        options: ["Basarios", "Garuba Daora", "Rukodiora", "Eo Garudia"],
+        answer: 3,
+    },
+
+    {
+        id: 272,
+        options: ["Bogabadorumu", "Kuarusepusu", "Onimusha", "Taikun Zamuza"],
+        answer: 4,
+    },
+
+    {
+        id: 273,
+        options: ["Toa Tesukatora", "Pokaradon", "Vespoid", "Gurenzeburu"],
+        answer: 1,
+    },
+
+    {
+        id: 274,
+        options: ["Forokururu", "Toridcless", "Gurenzeburu", "Farunokku"],
+        answer: 2,
+    },
+
+    {
+        id: 275,
+        options: ["Gureadomosu", "Rukodiora", "Varusaburosu", "Caeserber"],
+        answer: 3,
+    },
+
+    {
+        id: 276,
+        options: ["Ray Gougarf", "Gogomoa", "Varusaburosu", "Voljang"],
+        answer: 4,
+    },
+
+    {
+        id: 277,
+        options: ["Xiang Tien", "Laviente", "Kamu Orugaron", "Mi Ru"],
+        answer: 1,
+    },
+
+    {
+        id: 278,
+        options: ["Ray Gougarf", "Zenaserisu", "Gogomoa", "Chramine"],
+        answer: 2,
+    },
+
+    {
+        id: 279,
+        options: ["Destruction Rathalos", "Boltreaver Asthalos", "Zerureusu", "Demonic Seregios"],
+        answer: 3,
+    },
+
+    {
+        id: 280,
+        options: ["Najarala", "Nerscylla", "Rachnoid", "Kurenai Goukami"],
+        answer: 4,
+    },
+
+    {
+        id: 281,
+        options: ["Baelidae", "Chramine", "Caeserber", "Akantor"],
+        answer: 1,
+    },
+
+    {
+        id: 282,
+        options: ["Lightenna", "Kuarusepusu", "Raphinos", "Poborubarumu"],
+        answer: 2,
+    },
+
+    {
+        id: 283,
+        options: ["Shamos", "Girros", "Caeserber", "Maccao"],
+        answer: 3,
+    },
+
+    {
+        id: 284,
+        options: ["Khezu", "Gigginox", "Plesioth", "Chramine"],
+        answer: 4,
+    },
+
+    {
+        id: 285,
+        options: ["Disaster Wyvern", "Brute Tigrex", "Tigerstripe Zamtrios", "Tigrex"],
+        answer: 1,
+    },
+
+    {
+        id: 286,
+        options: ["Disaster Wyvern", "Estrellian", "Eo Garudia", "Versa Pietru"],
+        answer: 2,
+    },
+
+    {
+        id: 287,
+        options: ["Desert Seltas", "Seltas", "Lightenna", "Shen Gaoren"],
+        answer: 3,
+    },
+
+    {
+        id: 288,
+        options: ["Oltura", "White Fatalis", "Garuba Daora", "Merphistophelin"],
+        answer: 4,
+    },
+
+    {
+        id: 289,
+        options: ["Onimusha", "Ceanataur", "Shen Gaoren", "Hermitaur"],
+        answer: 1,
+    },
+
+    {
+        id: 290,
+        options: ["Toridcless", "Slicemargl", "Inagami", "Kuarusepusu"],
+        answer: 2,
+    },
+
+    {
+        id: 291,
+        options: ["Lightenna", "Erupe", "Tartaronis", "Basarios"],
+        answer: 3,
+    },
+
+    {
+        id: 292,
+        options: ["Altaroth", "Nerscylla", "Hornetaur", "Bnahabra"],
+        answer: 4,
+    },
+
+    {
+        id: 293,
+        options: ["Barnos", "Cortos", "Raphinos", "Noios"],
+        answer: 1,
+    },
+
+    {
+        id: 294,
+        options: ["Raphinos", "Cortos", "Nios", "Remobra"],
+        answer: 2,
+    },
+
+    {
+        id: 295,
+        options: ["Cortos", "Noios", "Mernos", "Raphinos"],
+        answer: 3,
+    },
+
+    {
+        id: 296,
+        options: ["Cortos", "Raphinos", "Shamos", "Noios"],
+        answer: 4,
+    },
+
+    {
+        id: 297,
+        options: ["Raphinos", "Nios", "Remobra", "Cortos"],
+        answer: 1,
+    },
+
+    {
+        id: 298,
+        options: ["Ioprey", "Remobra", "Iodrome", "Cortos"],
+        answer: 2,
+    },
+
+    {
+        id: 299,
+        options: ["Seltas", "Hornetaur", "Vespoid", "Hermitaur"],
+        answer: 3,
+    },
+
+    {
+        id: 300,
+        options: ["Musgoin", "Bulldrome", "Popo", "Bullfango"],
+        answer: 4,
+    },
+
+    {
+        id: 301,
+        options: ["Balahara", "Bnahabra", "Yama Tsukami", "Najarala"],
+        answer: 1,
+    },
+
+    {
+        id: 302,
+        options: ["Rust Duramboros", "Doshaguma", "Dodogama", "Goss Harag"],
+        answer: 2,
+    },
+
+    {
+        id: 303,
+        options: ["Tetsucabra", "Drilltusk Tetsucabra", "Chatacabra", "Redhelm Arzuros"],
+        answer: 3,
     },
 ];
 
