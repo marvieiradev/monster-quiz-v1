@@ -22,7 +22,7 @@ const GameOver = () => {
             <div className="flex flex-row items-center pointer-events-none">
                 {stars.map((item, index) => (
                     <>
-                        <div className="w-[40px] md:w-[60px] p-1">
+                        <div className="w-[40px] md:w-[60px] lg:w-[65px] p-1">
                             <img key={index} src={stars.length >= 5 ? Star2 : Star1} alt="star" />
                         </div>
                     </>
