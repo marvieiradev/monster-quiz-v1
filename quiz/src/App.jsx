@@ -7,11 +7,6 @@ import GameOver from './components/GameOver';
 
 function App() {
   const [quizState, dispatch] = useContext(QuizContext);
-
-  useEffect(() => {
-    dispatch({ type: "REORDER_QUESTIONS" })
-  }, []);
-
   return (
     <div className="main flex justify-center">
       {quizState.gameStage === "Start" && <Start />}

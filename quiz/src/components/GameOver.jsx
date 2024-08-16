@@ -33,7 +33,7 @@ const GameOver = () => {
                 <p className="text-xl font-bold mx-10 text-center">Pontuação: {quizState.score}</p>
                 <p className="text-xl font-bold mx-10 text-center">Respostas Corretas: {quizState.corrects}</p>
             </div>
-            <Button click={() => /*dispatch({ type: "NEW_GAME" })*/window.location.reload()} text="REINICIAR" />
+            <Button click={() => dispatch({ type: "NEW_GAME" })} text="REINICIAR" />
         </div>
     );
 }
