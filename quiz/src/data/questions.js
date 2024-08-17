@@ -307,7 +307,7 @@ const data = [
 
     {
         id: 52,
-        options: ["Copper Blangonga", "Furious Rajang", "Congalala", "Conga"],
+        options: ["Furious Rajang", "Congalala", "Conga", "Copper Blangonga"],
         answer: 4,
     },
 
@@ -445,7 +445,7 @@ const data = [
 
     {
         id: 75,
-        options: ["Nargaruga", "Yian Garuga", "Nargacuga", "Yian Naruga"],
+        options: ["Fiercewater Nargacuga", "Yian Garuga", "Nargacuga", "Yian Naruga"],
         answer: 3,
     },
 
