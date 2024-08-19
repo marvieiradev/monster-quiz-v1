@@ -127,7 +127,7 @@ const data = [
 
     {
         id: 22,
-        options: ["Monoblos", "Apex Diablos", "Black Diablos", , "Magnamalo"],
+        options: ["Monoblos", "Apex Diablos", "Black Diablos", "Magnamalo"],
         answer: 2,
     },
 
