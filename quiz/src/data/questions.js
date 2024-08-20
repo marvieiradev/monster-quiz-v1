@@ -1816,6 +1816,18 @@ const data = [
         options: ["Tetsucabra", "Drilltusk Tetsucabra", "Chatacabra", "Redhelm Arzuros"],
         answer: 3,
     },
+
+    {
+        id: 304,
+        options: ["Rey Dau", "Chatacabra", "Rakna-Kadaki", "Lala Barina"],
+        answer: 4,
+    },
+
+    {
+        id: 305,
+        options: ["Rey Dau", "Kamu Orugaron", "Doshaguma", "Mi Ru"],
+        answer: 1,
+    },
 ];
 
 export default data;
