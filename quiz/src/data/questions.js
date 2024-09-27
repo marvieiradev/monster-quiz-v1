@@ -1828,6 +1828,24 @@ const data = [
         options: ["Rey Dau", "Kamu Orugaron", "Doshaguma", "Mi Ru"],
         answer: 1,
     },
+
+    {
+        id: 306,
+        options: ["Rey Dau", "Uth Duna", "Namielle", "Arkveld"],
+        answer: 2,
+    },
+
+    {
+        id: 307,
+        options: ["Yian Garuga", "Aknosom", "Quematrice", "Rachnoid"],
+        answer: 3,
+    },
+
+    {
+        id: 308,
+        options: ["Rey Dau", "Lala Barina", "Doshaguma", "Arkveld"],
+        answer: 4,
+    },
 ];
 
 export default data;
