@@ -20,8 +20,8 @@ const QuizGame = () => {
     var perc = quizState.currentQuestion + 1;
     return (
         <>
-            <div className="app flex flex-col items-center w-full justify-center h-[100vh] relative md:w-[500px] xl:w-[800px]">
-                <div className="content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-4">
+            <div className="app flex flex-col items-center w-full justify-center h-[100vh] relative sm:w-[500px] xl:w-[800px]">
+                <div className="content-quiz rounded-lg m-10 w-full h-full flex flex-col items-center justify-center gap-4 lg:gap-6">
                     <span className="v-line absolute left-0 block"></span>
                     <span className="v-line absolute right-0 rotate-180 block"></span>
                     <img src={Logo} alt="logo" className="w-[70%] xl:w-[60%]" />

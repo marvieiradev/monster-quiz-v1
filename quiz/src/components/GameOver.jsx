@@ -13,7 +13,7 @@ const GameOver = () => {
     const extraPoint = 1;
 
     return (
-        <div className="app flex flex-col items-center w-full justify-center h-[100vh] relative gap-6 md:gap-8 xl:gap-2 md:w-[500px] xl:w-[800px]">
+        <div className="app flex flex-col items-center w-full justify-center h-[100vh] relative gap-6 md:gap-8 xl:gap-2 sm:w-[500px] xl:w-[800px]">
             <span className="v-line absolute left-0 block"></span>
             <span className="v-line absolute right-0 rotate-180 block"></span>
             <h2 className="title text-[35px] mb-4 md:text-[45px]">Fim de Jogo!</h2>
