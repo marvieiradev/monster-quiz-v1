@@ -12,7 +12,7 @@ const Start = () => {
         dispatch({ type: "REORDER_QUESTIONS" })
     }
     return (
-        <div className="app start flex flex-col items-center w-full justify-center h-[100vh] relative gap-8 sm:w-[500px] lg:w-[800px]">
+        <div className="app start flex flex-col items-center w-full justify-center h-[100vh] relative gap-8 sm:w-[500px] xl:w-[800px]">
             <span className="h-line absolute bottom-0 block"></span>
             <span className="h-line absolute top-0 rotate-180 block"></span>
             <div className="w-[310px] flex justify-center md:w-[340px] xl:w-[400px]">
