@@ -1,8 +1,17 @@
-# React + Vite
+# Monster Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto
 
-Currently, two official plugins are available:
+Jogo em formato de quiz, Baseado no jogo "Monster Hunter" da Capcom. Onde o objetivo é acertar o nome correto dos monstros da franquia, de acordo com a sua imagem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+
+• React
+• Javascript
+• Tailwind CSS
+
+## Demonstração
+
+https://monsterquiz.vercel.app/
+
+<img src="screenshot.jpg"/>
