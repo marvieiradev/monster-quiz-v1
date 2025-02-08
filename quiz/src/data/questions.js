@@ -2148,6 +2148,18 @@ const data = [
     options: ["Quematrice", "Ajarakan", "Doshaguma", "Rompopolo"],
     answer: 2,
   },
+
+  {
+    id: 311,
+    options: ["Uth Duna", "Akura Jebia", "Nu Udra", "Toa Tesukatora"],
+    answer: 3,
+  },
+
+  {
+    id: 312,
+    options: ["Somnacanth", "Ajarakan", "Aurora Somnacanth", "Hirabami"],
+    answer: 4,
+  },
 ];
 
 export default data;
