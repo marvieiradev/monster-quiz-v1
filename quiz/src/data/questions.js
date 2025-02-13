@@ -2160,6 +2160,12 @@ const data = [
     options: ["Somnacanth", "Ajarakan", "Aurora Somnacanth", "Hirabami"],
     answer: 4,
   },
+
+  {
+    id: 313,
+    options: ["Jin Dahaad", "Uth Duna", "Nu Udra", "Rey Dau"],
+    answer: 1,
+  },
 ];
 
 export default data;
