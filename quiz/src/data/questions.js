@@ -2166,6 +2166,12 @@ const data = [
     options: ["Jin Dahaad", "Uth Duna", "Nu Udra", "Rey Dau"],
     answer: 1,
   },
+
+  {
+    id: 314,
+    options: ["Uth Duna", "Xu Wu", "Nu Udra", "Mi Ru"],
+    answer: 2,
+  },
 ];
 
 export default data;
