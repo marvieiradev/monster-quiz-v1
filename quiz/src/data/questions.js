@@ -2172,6 +2172,24 @@ const data = [
     options: ["Uth Duna", "Xu Wu", "Nu Udra", "Mi Ru"],
     answer: 2,
   },
+
+  {
+    id: 315,
+    options: ["Merphistophelin", "Makili Pietru", "Versa Pietru", "Aenshin"],
+    answer: 3,
+  },
+
+  {
+    id: 316,
+    options: ["Versa Pietru", "Aenshin", "Mi Ru", "Makili Pietru"],
+    answer: 4,
+  },
+
+  {
+    id: 317,
+    options: ["Aenshin", "Makili Pietru", "Oltura", "Versa Pietru"],
+    answer: 1,
+  },
 ];
 
 export default data;
