@@ -3,9 +3,9 @@ import { QuizContext } from "../context/quiz";
 import Button from "./Button";
 import { List } from "../functions";
 
-import Finish from "../img/ending.webp";
-import Star1 from "../img/ui/star1.webp";
-import Star2 from "../img/ui/star2.webp";
+import Finish from "/ending.webp";
+import Star1 from "/ui/star1.webp";
+import Star2 from "/ui/star2.webp";
 
 const GameOver = () => {
     const [quizState, dispatch] = useContext(QuizContext);

@@ -9,7 +9,7 @@
 }
 
 .main {
-  background: url("../src/img/bg_page.jpg")no-repeat;
+  background: url("/bg_page.jpg")no-repeat;
   background-size: cover
 }
 
@@ -18,43 +18,43 @@ body {
 }
 
 .app {
-  background: url("../src/img/ui/bg.jpg");
+  background: url("/ui/bg.jpg");
 }
 
 
 
 .start {
-  background: url("../src/img/ui/bg_start.jpg")no-repeat center center;
+  background: url("/ui/bg_start.jpg")no-repeat center center;
   background-size: cover;
 }
 
 .v-line {
-  background: url("../src/img/ui/v-line.png")no-repeat center center;
+  background: url("/ui/v-line.png")no-repeat center center;
   width: 25px;
   height: 100vh;
   background-size: cover;
 }
 
 .h-line {
-  background: url("../src/img/ui/h-line_.png") no-repeat center center;
+  background: url("/ui/h-line_.png") no-repeat center center;
   width: 100%;
   height: 75px;
   background-size: cover;
 }
 
 .h-deco-line {
-  background: url("../src/img/ui/h-deco-line.png") no-repeat center;
+  background: url("/ui/h-deco-line.png") no-repeat center;
   width: 100vh;
   height: 30px;
   background-size: cover;
 }
 
 .container {
-  background: url("../src/img/ui/bg_content.jpg");
+  background: url("/ui/bg_content.jpg");
 }
 
 .btn {
-  background-image: url("../src/img/ui/btn_pt.png");
+  background-image: url("/ui/btn_pt.png");
   background-color: #AA0000;
   background-repeat: repeat-x;
   background-position: center;
@@ -100,11 +100,11 @@ span {
 }
 
 .container img {
-  src: url("/quiz/src/img/empty-big.webp");
+  src: url("/empty-big.webp");
 }
 
 .content-quiz img {
-  src: url("/quiz/src/img/empty-small.webp");
+  src: url("/empty-small.webp");
 }
 
 .title,

@@ -4,12 +4,12 @@ import useImagePreload from "../hooks/useImagePreload";
 import ImageCache from "./ImageCache";
 import Option from "./Option";
 import Modal from "./Modal";
-import Logo from "../img/logo_quiz.webp";
-import Frame from "../img/ui/frame_monster.webp";
+import Logo from "/logo_quiz.webp";
+import Frame from "/ui/frame_monster.webp";
 
 const QuizGame = () => {
   const [quizState, dispatch] = useContext(QuizContext);
-  const baseURL = "./monsters/";
+  const baseURL = "/monsters/";
   const currentQuestion = useMemo(() => {
     return quizState.questions[quizState.currentQuestion];
   }, [quizState.questions, quizState.currentQuestion]);
@@ -39,7 +39,7 @@ const QuizGame = () => {
   }, [quizState.currentQuestion]);
 
   useEffect(() => {
-    ["/light.webp", "/empty-big.webp"].forEach((src) => {
+    ["/light.webp", "/empty-big.webp", "/ui/frame_monster.webp"].forEach((src) => {
       const img = new Image();
       img.src = src;
     });
@@ -59,7 +59,7 @@ const QuizGame = () => {
           </p>
           <div className="w-[80%] xl:w-[60%]">
             <img
-              src={`./bar/br-${Math.ceil(perc)}.svg`}
+              src={`/bar/br-${Math.ceil(perc)}.svg`}
               alt=""
               className="mt-[-5px] pointer-events-none"
             />
@@ -94,13 +94,13 @@ const QuizGame = () => {
           currentQuestion.options[currentQuestion.answer - 1] ===
           quizState.answerSelected
             ? `${baseURL}big/${currentQuestion.id}.webp`
-            : "./error.webp"
+            : "/error.webp"
         }
         bg_image={
           currentQuestion.options[currentQuestion.answer - 1] ===
           quizState.answerSelected
-            ? "./light.webp"
-            : "./empty-big.webp"
+            ? "/light.webp"
+            : "/empty-big.webp"
         }
         mesage={
           currentQuestion.options[currentQuestion.answer - 1] ===

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 
-import Logo from "../img/logo.webp";
+import Logo from "/logo.webp";
 import Button from "./Button";
 
 const Start = () => {
