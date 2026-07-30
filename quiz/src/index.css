@@ -111,3 +111,38 @@ span {
 .info {
   font-family: "Aclonica", sans-serif;
 }
+
+@keyframes semirotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate {
+   0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.monster-animation {
+  animation: semirotate 5s linear infinite;
+}
+
+.image-animation {
+  animation: rotate 25s linear infinite;
+}

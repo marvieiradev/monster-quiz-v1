@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { QuizContext } from "../context/quiz";
 
 import Option from "./Option";
@@ -17,6 +17,13 @@ const QuizGame = () => {
         });
     }
 
+    useEffect(() => {
+        for (let i = 1; i <= quizState.maxQuestions; i++) {
+            const img = new Image();
+            img.src = `${baseURL}big/${i}.webp`;
+        }
+    }, []);
+
     var perc = quizState.currentQuestion + 1;
     return (
         <>
@@ -30,7 +37,7 @@ const QuizGame = () => {
                         <img src={`./bar/br-${Math.ceil(perc)}.svg`} alt="" className="mt-[-5px] pointer-events-none" />
                     </div>
                     <div className="w-[150px] flex items-center justify-center relative p-[5px]  bg-white rounded-xl md:w-[200px]">
-                        <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" />
+                        <img src={`${baseURL}small/${currentQuestion.id}.webp`} alt="monster" className="blur-xs" />
                         <img src={Frame} className="absolute" />
                     </div>
                     <p className="text-xl lg:text-2xl">Que Monstro é esse?</p>

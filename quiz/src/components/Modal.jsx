@@ -9,8 +9,8 @@ const Modal = (props) => {
                 <div className="flex flex-col items-center mt-10 mb-10">
                     <h1 className="title text-xl mb-1 md:text-2xl">{props.mesage}</h1>
                     <div className="w-[100%] h-[100%] flex items-center justify-center mt-[-8%] mb-[-4%] pointer-events-none relative">
-                        <img src={props.bg_image} alt="bg-image" />
-                        <img src={props.image} alt="monster-image" className="absolute" />
+                        <img src={props.bg_image} alt="bg-image" className="image-animation" />
+                        <img src={props.image} alt="monster-image" className="absolute monster-animation" />
                     </div>
                     <p className="text-xl mb-2 md:text-2xl">{props.name}</p>
                     <Button text="Próximo" className="mb-4" />

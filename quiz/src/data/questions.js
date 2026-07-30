@@ -852,7 +852,7 @@ const data = [
   {
     id: 116,
     options: [
-      "IGoldbeard Ceadeus",
+      "Goldbeard Ceadeus",
       "Viper Tobi-Kadachi",
       "Magnamalo",
       "Apex Zinogre",
