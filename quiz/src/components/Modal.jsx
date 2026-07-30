@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Modal = (props) => {
     return (
-        <div className="bg-[#0000008c] flex w-full h-full z-1 m-auto fixed top-0 bottom-0" onClick={props.click}>
+        <div className={`bg-[#0000008c] flex w-full h-full z-1 m-auto fixed top-0 bottom-0 ${props.open ? "opacity-100" : "opacity-0 pointer-events-none"}`} onClick={props.click}>
             <div className="container bg-yellow-50 flex justify-center m-auto w-[95%] md:w-[450px] xl:w-[600px] rounded-md border-4 relative">
                 <span className="h-deco-line absolute top-0 block max-w-full"></span>
                 <span className="h-deco-line absolute bottom-0 rotate-180 block max-w-full"></span>
