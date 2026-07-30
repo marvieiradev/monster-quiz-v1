@@ -18,7 +18,7 @@ const GameOver = () => {
             <span className="v-line absolute right-0 rotate-180 block"></span>
             <h2 className="title text-[35px] mb-4 md:text-[45px]">Fim de Jogo!</h2>
             <div className="w-[80%] flex items-center justify-center mt-[-8%] mb-[-4%] xl:w-[70%] xl:mb-[-2%] xl:mt-[-2%]  pointer-events-none">
-                <img src={Finish} alt="image" />
+                <img src={Finish} alt="image" className="monster-animation" />
             </div>
             <div className="flex flex-row items-center pointer-events-none">
                 {stars.map((item, index) => (
