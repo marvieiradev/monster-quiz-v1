@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 
 import Button from "./Button";
@@ -10,4 +10,4 @@ const Option = ({ option, selectOption, answer }) => {
     )
 }
 
-export default Option;
+export default React.memo(Option);
