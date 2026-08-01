@@ -9,7 +9,7 @@
 }
 
 .main {
-  background: url("/bg_page.jpg")no-repeat;
+  background: url("/bg_page.webp")no-repeat;
   background-size: cover
 }
 
@@ -18,43 +18,46 @@ body {
 }
 
 .app {
-  background: url("/ui/bg.jpg");
+  background-color: #F9EDD5;
+  background: url("/ui/bg.webp");
 }
 
 
 
 .start {
-  background: url("/ui/bg_start.jpg")no-repeat center center;
+  background-color: #E6CFA5;
+  background: url("/ui/bg_start.webp")no-repeat center center;
   background-size: cover;
 }
 
 .v-line {
-  background: url("/ui/v-line.png")no-repeat center center;
+  background: url("/ui/v-line.webp")no-repeat center center;
   width: 25px;
   height: 100vh;
   background-size: cover;
 }
 
 .h-line {
-  background: url("/ui/h-line_.png") no-repeat center center;
+  background: url("/ui/h-line_.webp") no-repeat center center;
   width: 100%;
   height: 75px;
   background-size: cover;
 }
 
 .h-deco-line {
-  background: url("/ui/h-deco-line.png") no-repeat center;
+  background: url("/ui/h-deco-line.webp") no-repeat center;
   width: 100vh;
   height: 30px;
   background-size: cover;
 }
 
 .container {
-  background: url("/ui/bg_content.jpg");
+  background-color: #AEA7A1;
+  background: url("/ui/bg_content.webp");
 }
 
 .btn {
-  background-image: url("/ui/btn_pt.png");
+  background-image: url("/ui/btn_pt.webp");
   background-color: #AA0000;
   background-repeat: repeat-x;
   background-position: center;
