@@ -2,7 +2,6 @@ import React from "react";
 import Frame from "/ui/frame_monster.webp";
 
 const MonsterCard = ({ id }) => {
-  console.count("MonsterCard");
 
   return (
     <div>

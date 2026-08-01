@@ -1,6 +1,5 @@
 import React from "react";
 const ProgressBar = ({ currentQuestion, maxQuestions }) => {
-  console.count("ProgressBar");
 
   const perc = currentQuestion + 1;
 

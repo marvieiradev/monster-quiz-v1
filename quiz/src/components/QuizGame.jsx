@@ -43,7 +43,7 @@ const QuizGame = () => {
   }, [quizState.currentQuestion]);
 
   useEffect(() => {
-    ["/light.webp", "/empty-big.webp", "/ui/frame_monster.webp"].forEach(
+    ["/light.webp", "/empty-big.webp", "/error.webp"].forEach(
       (src) => {
         const img = new Image();
         img.src = src;
