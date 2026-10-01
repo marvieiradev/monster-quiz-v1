@@ -2196,6 +2196,18 @@ const data = [
     options: ["Makili Pietru", "Ruger Aidal", "Aenshin", "Versa Pietru"],
     answer: 2,
   },
+
+  {
+    id: 319,
+    options: ["Aenshin", "Ruger Aidal", "Araketa", "Gundraja"],
+    answer: 3,
+  },
+
+  {
+    id: 320,
+    options: ["Araketa", "Ruger Aidal", "Aenshin", "Gundraja"],
+    answer: 4,
+  },
 ];
 
 export default data;
