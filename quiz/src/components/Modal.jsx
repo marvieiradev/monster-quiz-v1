@@ -18,7 +18,7 @@ const Modal = ({
         <span className="h-deco-line absolute top-0 block max-w-full"></span>
         <span className="h-deco-line absolute bottom-0 rotate-180 block max-w-full"></span>
         <div className="flex flex-col items-center mt-10 mb-10">
-          <h1 className="title text-xl mb-1 md:text-2xl">{title}</h1>
+          <h1 className="title text-2xl mt-2 md:text-3xl">{title}</h1>
           <div className="w-[100%] h-[100%] flex items-center justify-center mt-[-8%] mb-[-4%] pointer-events-none relative">
             <img
               src={bgImage}
@@ -31,7 +31,7 @@ const Modal = ({
               className="absolute monster-animation"
             />
           </div>
-          <p className="text-xl mb-2 md:text-2xl">{subtitle}</p>
+          <p className="text-xl mb-4 md:text-2xl modal-info">{subtitle}</p>
           <Button text="Próximo" className="mb-4" />
         </div>
       </div>

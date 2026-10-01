@@ -22,12 +22,14 @@ body {
   background: url("/ui/bg.webp");
 }
 
-
-
 .start {
   background-color: #E6CFA5;
   background: url("/ui/bg_start.webp")no-repeat center center;
   background-size: cover;
+}
+
+.start-info, .quiz-info, .modal-info {
+  font-family: "Faculty Glyphic", sans-serif;
 }
 
 .v-line {

@@ -18,13 +18,13 @@ const Start = () => {
       <div className="w-[310px] flex justify-center md:w-[340px] xl:w-[400px]">
         <img src={Logo} alt="logo" width="100%" />
       </div>
-      <h2 className="info text-md leading-6 font-bold mx-8 text-center md:text-lg md:mx-10">
+      <h2 className="info text-md leading-6 font-bold mx-8 text-center md:text-lg max-w-[600px]">
         Você conhece os monstros de Monster Hunter? Observe a imagem,
         identifique o monstro e prove que você conhece a franquia! <br /><br />Quantos você
         consegue acertar?
       </h2>
       <Button click={startGame} text="INICIAR" />
-      <p className="info font-bold text-sm text-center px-8 md:text-md md:px-10">
+      <p className="start-info font-bold text-sm text-center px-8 md:text-md max-w-[600px]">
         Aviso: Este é um projeto independente, criado por fãs para fãs. Não é um
         produto oficial e não possui vínculo ou afiliação com a franquia Monster
         Hunter.

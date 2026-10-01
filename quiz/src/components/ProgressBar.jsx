@@ -8,7 +8,7 @@ const ProgressBar = ({ currentQuestion, maxQuestions }) => {
       <div className="w-[80%] xl:w-[60%] animpulse">
         <img src={`/bar/br-${Math.ceil(perc)}.svg`} alt="" />
       </div>
-      <p className="text-xl lg:text-2xl mb-2">
+      <p className="text-lg lg:text-xl mb-2 quiz-info">
         Desafio {Number(currentQuestion + 1)} de {Number(maxQuestions)}
       </p>
     </div>
