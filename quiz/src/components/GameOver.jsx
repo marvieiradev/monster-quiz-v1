@@ -21,12 +21,12 @@ const GameOver = () => {
                 <img src={Finish} alt="image" className="monster-animation" />
             </div>
             <div className="flex flex-row items-center pointer-events-none">
-                {stars.map((item, index) => (
-                    <>
-                        <div key={index} className="w-[40px] md:w-[60px] lg:w-[65px] p-1">
-                            <img key={index} src={stars.length >= 5 ? Star2 : Star1} alt="star" />
+                {stars.map((_item, index) => (
+                    <div key={index}>
+                        <div  className="w-[40px] md:w-[60px] lg:w-[65px] p-1">
+                            <img src={stars.length >= 5 ? Star2 : Star1} alt="star" />
                         </div>
-                    </>
+                    </div>
                 ))}
             </div>
 

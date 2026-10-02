@@ -2,10 +2,7 @@ import { useContext, useEffect, useMemo, useCallback } from "react";
 import { QuizContext } from "../context/quiz";
 import useImagePreload from "../hooks/useImagePreload";
 import ImageCache from "./ImageCache";
-import Option from "./Option";
 import Modal from "./Modal";
-import Logo from "/logo_quiz.webp";
-
 import Header from "./Header";
 import ProgressBar from "./ProgressBar";
 import MonsterCard from "./MonsterCard";
@@ -13,7 +10,6 @@ import OptionsList from "./OptionsList";
 
 const QuizGame = () => {
   const [quizState, dispatch] = useContext(QuizContext);
-  const baseURL = "/monsters/";
   const currentQuestion = useMemo(() => {
     return quizState.questions[quizState.currentQuestion];
   }, [quizState.questions, quizState.currentQuestion]);
@@ -51,7 +47,6 @@ const QuizGame = () => {
     );
   }, []);
 
-  var perc = quizState.currentQuestion + 1;
   return (
     <>
       <ImageCache questions={gameQuestions} />
